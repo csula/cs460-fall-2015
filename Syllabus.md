@@ -12,23 +12,32 @@
 - **Office Hours** 
 - **Text Book**  
 
+## Course Objectives
+
+* Brute force searching algorithm (DFS & BFS)
+* Intelligent searching algorithm (A*)
+* Alpha-Beta pruning
+* Min-Max
+
 ## Grading Allocation
 
-1. Quizz
-2. Homework
-3. Project
+1. Quiz (4) 40 pts
+2. Homework (4) 40 pts
+3. Course Project 20 pts
 
 **Final Project**
 
 ## Grading Scale
 
-* A: 94 to 100
-* A-: 90 to 93
-* B+: 85 to 89
-* B: 80 to 84 **Graduate students will receive NC (No Credit) for scores below 80**
-* B-: 77 to 79
-* C+: 74 to 76
-* C: 70 to 73 **Undergraduates will receive NC (No Credit) for scores below 70**
+* A: 
+* A-: 
+* B+: 
+**Graduate students will receive NC (No Credit) for scores below 80**
+* B:
+* B-: 
+* C+:
+**Undergraduates will receive NC (No Credit) for scores below 70** 
+* C: 
 
 ## ADA Statement
 
@@ -36,14 +45,15 @@ Reasonable accommodation will be provided to any student who is registered with 
 
 ## Academic Integrity
 
+Cheating on assignments and exams will not be tolerated. All parties involved will receive a grade of **F** for the course and be reported to the Computer Science Department.
 
 ## Course Schedule
 
 The schedule below is tentative and is subject to change.
 
-* Lecture 1: [9/26] 
+* Lecture 1: [9/26] Introduction 
 
-* Lecture 2: [10/3] 
+* Lecture 2: [10/3] No class
 
 * Lecture 3: [10/10] 
 
