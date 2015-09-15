@@ -60,7 +60,7 @@ The schedule below is tentative and is subject to change.
 
 * Lecture 4: [10/17] Brute Force, e.g. BFS & DFS (Eric)
 
-* Lecture 5: [10/24] More Search, e.g. Dijkstra (John); Q1: Representation & Brute Force 
+* Lecture 5: [10/24] More Search, e.g. Dijkstra (Eric); Q1: Representation & Brute Force 
 
 * Lecture 6: [10/31] Heuristic Search, e.g. A* (John)
 
