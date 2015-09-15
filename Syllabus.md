@@ -52,24 +52,26 @@ Cheating on assignments and exams will not be tolerated. All parties involved wi
 
 The schedule below is tentative and is subject to change.
 
-* Lecture 1: [9/26] Introduction
+* Lecture 1: [9/26] Introduction (Eric/John)
 
 * Lecture 2: [10/3] No in-class meeting; students will watch a video lecture
 
-* Lecture 3: [10/10] Graph representation
+* Lecture 3: [10/10] Graph representation (Eric)
 
-* Lecture 4: [10/17] Brute Force (BFS & DFS)
+* Lecture 4: [10/17] Brute Force, e.g. BFS & DFS (Eric)
 
-* Lecture 5: [10/24] More Search (Dijkstra); Q1: Representation & Brute Force
+* Lecture 5: [10/24] More Search, e.g. Dijkstra (John); Q1: Representation & Brute Force 
 
-* Lecture 6: [10/31] Heuristic Search (A*)
+* Lecture 6: [10/31] Heuristic Search, e.g. A* (John)
 
-* Lecture 7: [11/7]  Alpha-Beta pruning; Q2: Heuristic Search
+* Lecture 7: [11/7]  Alpha-Beta pruning (John); Q2: Heuristic Search 
 
-* Lecture 8: [11/14] Alpha-Beta pruning & Min-max; 
+* Lecture 8: [11/14] Alpha-Beta pruning (John); Min-max; (Eric)
 
-* Lecture 9: [11/21] Min-max; Q3: Alpha-Beta
+* Lecture 9: [11/21] Min-max (Eric); Q3: Alpha-Beta pruning
 
-* Lecture 10: [11/28] Course wrap-up and Project Preparation; Quiz 4: Min-max
+* Lecture 10: [11/28] Course wrap-up and Project Preparation (Eric/John); Quiz 4: Min-max
 
-* Final: Activity - In class tournament (Have fun!)
+* Final: Activity - In class tournament (Have fun!) (Eric/John)
+
+
