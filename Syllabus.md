@@ -7,9 +7,9 @@
 
 ## Logistics
 
-- **Instructor** Hsiang-Yu(Eric) Liao and John J. Tran
-- **Lecture** Saturday 9am to 1pm
-- **Office Hours** Saturday 1pm to 2pm
+- **Instructor** Hsiang-Yu (Eric) Liao and John J. Tran
+- **Lecture** Saturday 9:00 AM to 1:00 PM
+- **Office Hours** Saturday 1:00 PM to 2:00 PM
 - **Text Book** None as we will have more notes hosted on Github.
 
 ## Course Objectives
@@ -18,7 +18,7 @@
 * Brute force searching algorithm (DFS & BFS)
 * Heuristic searching algorithm (A*)
 * Alpha-Beta pruning
-* Mini-Max
+* Min-Max
 
 ## Grading Allocation
 
@@ -54,22 +54,22 @@ The schedule below is tentative and is subject to change.
 
 * Lecture 1: [9/26] Introduction
 
-* Lecture 2: [10/3] No class
+* Lecture 2: [10/3] No in-class meeting; students will watch a video lecture
 
 * Lecture 3: [10/10] Graph representation
 
 * Lecture 4: [10/17] Brute Force (BFS & DFS)
 
-* Lecture 5: [10/24] Brute Force (BFS & DFS)
+* Lecture 5: [10/24] More Search (Dijkstra); Q1: Representation & Brute Force
 
-* Lecture 6: [10/31] Midterm
+* Lecture 6: [10/31] Heuristic Search (A*)
 
-* Lecture 7: [11/7] More Search (Dijkstra)
+* Lecture 7: [11/7]  Alpha-Beta pruning; Q2: Heuristic Search
 
-* Lecture 8: [11/14] Heuristic Search (A*)
+* Lecture 8: [11/14] Alpha-Beta pruning & Min-max; 
 
-* Lecture 9: [11/21] Alpha-Beta pruning
+* Lecture 9: [11/21] Min-max; Q3: Alpha-Beta
 
-* Lecture 10: [11/28] Minimax
+* Lecture 10: [11/28] Course wrap-up and Project Preparation; Quiz 4: Min-max
 
 * Final: Activity - In class tournament (Have fun!)
