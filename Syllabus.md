@@ -1,4 +1,4 @@
-# Advanced Software Architecture
+# Artificial Intelligence
 
 ## Course Overview
 
