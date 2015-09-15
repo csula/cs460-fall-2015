@@ -26,7 +26,7 @@
 2. Homework (4) 40 pts
 3. Course Project 20 pts
 
-**Final Project**
+**Final Project** Homework assignments culminate in a final project: a complete application/game that utilizes the AI theories. **Successful completion of the course project is a requirement for passing this course.**
 
 ## Grading Scale
 
@@ -34,11 +34,11 @@
 * A-: 90 to 93
 * B+: 85 to 89
 * B: 80 to 84  
-**Graduate students will receive NC (No Credit) for scores below 80**
+**Graduate students are required to obtain a grade 80 or above to pass the course**
 * B-: 77 to 79
 * C+: 74 to 76
 * C: 70 to 73  
-**Undergraduates will receive NC (No Credit) for scores below 70**
+**Undergraduate students are required to obtain a grade 70 or above to pass the course**
 
 ## ADA Statement
 
