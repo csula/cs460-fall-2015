@@ -61,18 +61,16 @@ The schedule below is tentative and is subject to change.
 
 * Lecture 4: [10/17] [Brute Force](notes/general-search.md), e.g. BFS & DFS (Eric)
 
-* Lecture 5: [10/24] [More Search](notes/advanced-search.md), e.g. Dijkstra (Eric); Q1: Representation & Brute Force 
+* Lecture 5: [10/24] [More Search](notes/advanced-search.md), e.g. Dijkstra (Eric); Q1: Representation & Brute Force
 
 * Lecture 6: [10/31] [Heuristic Search](notes/heuristic-search.md), e.g. A* (John)
 
-* Lecture 7: [11/7]  [Alpha-Beta pruning](notes/alpha-beta-pruning.md) (Eric); Q2: Heuristic Search 
+* Lecture 7: [11/7]  [Alpha-Beta pruning](notes/alpha-beta-pruning.md) (Eric); Q2: Heuristic Search
 
 * Lecture 8: [11/14] Alpha-Beta pruning (Eric); [Min-max](notes/min-max.md); (John)
 
 * Lecture 9: [11/21] Min-max (John); Q3: Alpha-Beta pruning
 
-* Lecture 10: [11/28] Course wrap-up and [Project Preparation](notes/project.md) (Eric/John); Quiz 4: Min-max
+* Lecture 10: [11/28] Course wrap-up and [Project Preparation](final-project/project.md) (Eric/John); Quiz 4: Min-max
 
 * Final: Activity - In class tournament (Have fun!) (Eric/John)
-
-
