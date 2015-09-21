@@ -53,19 +53,19 @@ Cheating on assignments and exams will not be tolerated. All parties involved wi
 
 The schedule below is tentative and is subject to change.
 
-* Lecture 1: [9/26] [Introduction](notes/introduction.md) (Eric/John)
+* Lecture 1: [9/26] [Introduction](documents/notes/introduction.md) (Eric/John)
 
 * Lecture 2: [10/3] No in-class meeting; students will watch a video lecture
 
-* Lecture 3: [10/10] [Graph representation](notes/graph-representation.md) (Eric)
+* Lecture 3: [10/10] [Graph representation](documents/notes/graph-representation.md) (Eric)
 
-* Lecture 4: [10/17] [Brute Force](notes/general-search.md), e.g. BFS & DFS (Eric); HW1: Graph Representation
+* Lecture 4: [10/17] [Brute Force](documents/notes/general-search.md), e.g. BFS & DFS (Eric); HW1: Graph Representation
 
-* Lecture 5: [10/24] [More Search](notes/advanced-search.md), e.g. Dijkstra (Eric); Q1: Representation & Brute Force
+* Lecture 5: [10/24] [More Search](documents/notes/advanced-search.md), e.g. Dijkstra (Eric); Q1: Representation & Brute Force
 
-* Lecture 6: [10/31] [Heuristic Search](notes/heuristic-search.md), e.g. A* (John); HW2: General Search
+* Lecture 6: [10/31] [Heuristic Search](documents/notes/heuristic-search.md), e.g. A* (John); HW2: General Search
 
-* Lecture 7: [11/7]  [Alpha-Beta pruning](notes/alpha-beta-pruning.md) (Eric); Q2: Heuristic Search
+* Lecture 7: [11/7]  [Alpha-Beta pruning](documents/notes/alpha-beta-pruning.md) (Eric); Q2: Heuristic Search
 
 * Lecture 8: [11/14] Alpha-Beta pruning (Eric); [Min-max](notes/min-max.md); (John); HW3: Heuristic Search
 
