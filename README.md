@@ -5,11 +5,11 @@
 Welcome to CS460 Artificial Intelligence. This is a fast-paced course with emphasis theory and practice.
 
 * [Syllabus](Syllabus.md)
-* [Homework 1](homeworks/homework1.md)
-* [Homework 2](homeworks/homework2.md)
-* [Homework 3](homeworks/homework3.md)
-* [Homework 4](homeworks/homework4.md)
-* [Project](final-project/project.md)
+* [Homework 1](documents/homeworks/homework1.md)
+* [Homework 2](documents/homeworks/homework2.md)
+* [Homework 3](documents/homeworks/homework3.md)
+* [Homework 4](documents/homeworks/homework4.md)
+* [Project](documents/final-project/project.md)
 
 Please check the `README.md` often for news and announcements.
 
