@@ -47,6 +47,11 @@ Click on the link above and install Gradle accordingly.
 
 Install via `brew install gradle` assuming you have `brew` installed.
 
+### Linux User
+
+* CentOS users can follow the instruction found in [Github Gist](https://gist.github.com/parzonka/9371885).  
+* Ubuntu users take a look at the [Ask Ubuntu Stack Exchange Tutorial](https://askubuntu.com/questions/328178/gradle-in-ubuntu).
+
 ## Github
 
 * [Sign up Github account](https://github.com/) if you don't already have one
