@@ -67,10 +67,10 @@ The schedule below is tentative and is subject to change.
 
 * Lecture 7: [11/7]  [Alpha-Beta pruning](documents/notes/alpha-beta-pruning.md) (Eric); Q2: Heuristic Search
 
-* Lecture 8: [11/14] Alpha-Beta pruning (Eric); [Min-max](notes/min-max.md); (John); HW3: Heuristic Search
+* Lecture 8: [11/14] Alpha-Beta pruning (Eric); [Min-max](documents/notes/min-max.md); (John); HW3: Heuristic Search
 
 * Lecture 9: [11/21] Min-max (John); Q3: Alpha-Beta pruning
 
-* Lecture 10: [11/28] Course wrap-up and [Project Preparation](final-project/project.md) (Eric/John); Quiz 4: Min-max; HW4: Search Optimization
+* Lecture 10: [11/28] Course wrap-up and [Project Preparation](documents/final-project/project.md) (Eric/John); Quiz 4: Min-max; HW4: Search Optimization
 
 * Final: Activity - In class tournament (Have fun!) (Eric/John)
