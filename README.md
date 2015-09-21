@@ -1,6 +1,6 @@
 **cs460-fall-2015**
 
-# Artificial Intelligence
+# Artificial Intelligence [![Build Status](https://travis-ci.org/csula/cs460-fall-2015.svg?branch=master)](https://travis-ci.org/csula/cs460-fall-2015)
 
 Welcome to CS460 Artificial Intelligence. This is a fast-paced course with emphasis theory and practice.
 
