@@ -18,4 +18,6 @@ Please check the `README.md` often for news and announcements.
 
 ## Quick Start Guide
 
-
+1. Clone/fork repository
+2. Run `gradle check` to run through all the unit tests
+3. Run `gradle clean build` to buid project
