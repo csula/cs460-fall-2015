@@ -5,6 +5,10 @@ Please. Do not copy any other student's code or give out your answer to any othe
 You are still encouraged to help them by instructing them; but do not give out
 your answer directly as you are not helping them.
 
+# Java Style Guides
+
+[Look this document for more detail](documents/misc/styleguide.md)
+
 # Submission Guidelines
 
 Before you submit your Pull Request (homework submission), please consider following guidelines.
