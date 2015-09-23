@@ -8,7 +8,7 @@
 
 * Github
 * Homework submission process
-* Briefing grading rubric
+* Brief grading rubric
 * In class exercise
 
 # Development Environment
@@ -17,8 +17,7 @@ As this class will be one of those heavy programming class, we will need to set 
 
 ## Java
 
-Install [OracleJDK 8](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
-if you don't already have one.
+Install [OracleJDK 8](http://www.oracle.com/technetwork/java/javase/downloads/index.html) if you don't already have one.
 
 ### Windows User
 
