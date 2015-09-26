@@ -54,8 +54,6 @@ Install via `brew install gradle` assuming you have `brew` installed.
 ## Github
 
 * [Sign up Github account](https://github.com/) if you don't already have one
-* Comment on `issue#2` with your real name with Github username for me to set up
-sandbox environment for you
 
 After finished above two tasks, please download [git](https://git-scm.com/) or
 [Github client](https://desktop.github.com/) for you to do source control.
