@@ -7,7 +7,7 @@
 
 ## Logistics
 
-- **Instructor** Hsiang-Yu (Eric) Liao [rcliao01@gmail.com](mailto:rcliao01@gmail.com] and John J. Tran
+- **Instructor** Hsiang-Yu (Eric) Liao [rcliao01@gmail.com](mailto:rcliao01@gmail.com) and John J. Tran
 - **Lecture** Saturday 9:00 AM to 1:00 PM
 - **Office Hours** Saturday 1:00 PM to 2:00 PM
 - **Location** E&T A126
