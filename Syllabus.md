@@ -55,7 +55,7 @@ The schedule below is tentative and is subject to change.
 
 * Lecture 1: [9/26] [Introduction](documents/notes/introduction.md) (Eric/John)
 
-* Lecture 2: [10/3] No in-class meeting; students will watch a video lecture
+* Lecture 2: [10/3] [Graph representation](documents/notes/graph-representation.md) (Eric)
 
 * Lecture 3: [10/10] [Graph representation](documents/notes/graph-representation.md) (Eric)
 
