@@ -68,7 +68,9 @@ Github/git in order to commit & push your code for code submission.
 * https://help.github.com/articles/good-resources-for-learning-git-and-github/
 * [Github cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
-## Wrap Up Hello World Exercise
+## Wrap Up Java Review Exercise
+
+[Repository invitation -- click here to be invited to have your own repository](https://classroom.github.com/assignment-invitations/e65c8c059ca93d69dfdcf0e6569e59a0)
 
 Since not everyone has experience of using Github/git before, we will go over
 in class exercise to show off how you should submit your assignment in future.
@@ -79,13 +81,9 @@ Object Oriented Programming) as they are the primary requirements for the course
 You may start reading through the source code folder for some starting point of the project. Please finish `HelloWorld.java` and `HelloFileIO.java`
 
 1. Fork/clone repository
-2. Extend from abstract class `Hello.java` with your package
-`edu.csula.cs460.{your first name initial}{Last name}`  
-> Take me (**H**siang-Yu **Liao**) for example, it would be `edu.csula.cs460.hliao`
-
-3. Code, Commit & pass unit test  
+2. Code, Commit & pass unit test  
 > Note 1: You can run `gradle check` to check if you passed the provided unit tests right away locally  
 > Note 2: DO NOT MODIFY ANY EXISTING CODE
 
-4. Pull request & review comments  
+3. Pull request & review comments  
 > Note that in the pull request, you will see the build result immediatelly in the pull request status. Please make sure you at least pass the unit tests as they are one of the grading criteria.
