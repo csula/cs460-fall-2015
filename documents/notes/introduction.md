@@ -85,3 +85,11 @@ You may start reading through the source code folder for some starting point of 
 
 3. Pull request & review comments  
 > Note that in the pull request, you will see the build result immediatelly in the pull request status. Please make sure you at least pass the unit tests as they are one of the grading criteria.
+
+If you have trouble pushing to your own repository under your workspace
+
+```bash
+git remote set-url origin {Your repository url} # https://github.com/csula/exercise-1-amit70.git for example
+git commit -a # will open text editor for you to enter commit message
+git push # push to origin server (which will be your repository)
+```
