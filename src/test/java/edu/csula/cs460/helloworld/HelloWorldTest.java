@@ -10,7 +10,7 @@ public class HelloWorldTest {
 
     @Before
     public void setUp() {
-        HelloWorld hello = new HelloWorld();
+        hello = new HelloWorld();
     }
 
     @Test
