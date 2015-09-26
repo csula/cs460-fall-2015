@@ -19,7 +19,7 @@ Welcome to CS460 Artificial Intelligence. This is a fast-paced course with empha
 
 * Please review the [course syllabus](Syllabus.md) and come to class with questions.  In order for us to be prepared for the first day of class, please bring your laptop computer.  We will have a short non-graded assessment quiz.  The purpose of the quiz is to gauge the the students' programming level.
 
-* For students who want to add, please send me your CIN with your name in email. I will forward it to Tricia and you will have to see Tricia in CS department to add this class.
+* For students who want to add, please send me([rcliao01@gmail.com](mailto:rcliao01@gmail.com)) your CIN with your name in email. I will forward it to Tricia and you will have to see Tricia in CS department to add this class.
 
 ## Quick Start Guide
 
