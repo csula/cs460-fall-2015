@@ -9,7 +9,7 @@
 * Github
 * Homework submission process
 * Brief grading rubric
-* In class exercise
+* In class exercise (Java review)
 
 # Development Environment
 
@@ -71,12 +71,12 @@ Github/git in order to commit & push your code for code submission.
 [Repository invitation -- click here to be invited to have your own repository](https://classroom.github.com/assignment-invitations/e65c8c059ca93d69dfdcf0e6569e59a0)
 
 Since not everyone has experience of using Github/git before, we will go over
-in class exercise to show off how you should submit your assignment in future.
+in class exercise to demonstrate how you should submit your assignment in future.
 
 The goal of this exercise is to review mainly two concepts (Java File IO &
 Object Oriented Programming) as they are the primary requirements for the course.
 
-You may start reading through the source code folder for some starting point of the project. Please finish `HelloWorld.java` and `HelloFileIO.java`
+You may start reading through the source code folder for some starting point of the project.
 
 1. Fork/clone repository
 2. Code, Commit & pass unit test  
