@@ -14,7 +14,7 @@ public class HelloWorldTest {
     }
 
     @Test
-    public void sayHelloAI() {
+    public void sayHelloClassName() {
         assertEquals(
             "Test case 1 - `Hello, CS 460`",
             "Hello, CS 460",
@@ -23,7 +23,7 @@ public class HelloWorldTest {
     }
 
     @Test
-    public void sayHelloAI() {
+    public void seyHelloAI() {
         assertEquals(
             "Test case 2 - `Hello, Artificial Intelligence`",
             "Hello, Artificial Intelligence",
