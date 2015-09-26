@@ -26,6 +26,7 @@
 1. Quiz (4) 40 pts
 2. Homework (4) 40 pts
 3. Course Project 20 pts
+4. Attendeance 5 pts
 
 **Final Project** Homework assignments culminate in a final project: a complete application/game that utilizes the AI theories. **Successful completion of the course project is a requirement for passing this course.**
 
