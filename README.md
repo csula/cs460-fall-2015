@@ -17,12 +17,17 @@ Welcome to CS460 Artificial Intelligence. This is a fast-paced course with empha
 
 ## Announcements
 
-* Please review the [course syllabus](Syllabus.md) and come to class with questions.  In order for us to be prepared for the first day of class, please bring your laptop computer.  We will have a short non-graded assessment quiz.  The purpose of the quiz is to gauge the the students' programming level.
-
 * For students who want to add, please send me ([rcliao01@gmail.com](mailto:rcliao01@gmail.com)) your CIN with your name in email. I will forward it to Tricia and you will have to see Tricia in CS department to add this class.
+
+* No class on October 3rd due to Senior Design event. I (Eric) will still be in classroom if anyone needs assistance on first exercise.
+
+* We just got the discount from Github education for private repositories. Therefore, on next class your current repository will be replaced by another repository.
+
+* Due to some confusions on Github/Git usage, I will have a short section next class for teaching Git/Github. Stay tuned!
 
 ## Quick Start Guide
 
 1. Clone/fork repository
 2. Run `gradle check` to run through all the unit tests
-3. Run `gradle clean build` to buid project
+3. Run `gradle clean build` to build project
+4. [WIP] Run `gradle run` for running project

@@ -56,7 +56,7 @@ The schedule below is tentative and is subject to change.
 
 * Lecture 1: [9/26] [Introduction](documents/notes/introduction.md) (Eric/John)
 
-* Lecture 2: [10/3] [Graph representation](documents/notes/graph-representation.md) (Eric)
+* Lecture 2: [10/3] No class due to Senior Design Event (Eric will be in classroom if anyone needs any assistance for exercise)
 
 * Lecture 3: [10/10] [Graph representation](documents/notes/graph-representation.md) (Eric)
 
