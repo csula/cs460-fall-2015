@@ -47,7 +47,7 @@ public class MatrixFileTest {
 
         assertEquals(
             "Text case 6 - `test row 4 col 5`",
-            1,
+            3,
             matrixFile.getValue(4, 5)
         );
 

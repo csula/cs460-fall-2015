@@ -2,7 +2,6 @@ package edu.csula.cs460.file;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
-import static org.hamcrest.core.Is.is;
 
 import org.junit.Test;
 import org.junit.Before;
@@ -17,13 +16,13 @@ public class ListFileTest {
         assertEquals(
             "Test case 1 - `Testing getting list for [a]`",
             Lists.newArrayList("b", "c"),
-            is(listFile.getList("a"))
+            listFile.getList("a")
         );
 
         assertEquals(
             "Test case 2 - `Testing getting list for [c]`",
             Lists.newArrayList("a"),
-            is(listFile.getList("c"))
+            listFile.getList("c")
         );
     }
 
@@ -34,13 +33,13 @@ public class ListFileTest {
         assertEquals(
             "Test case 3 - `Testing getting list for [b]`",
             Lists.newArrayList("d"),
-            is(listFile.getList("b"))
+            listFile.getList("b")
         );
 
         assertEquals(
             "Test case 4 - `Testing getting list for [d]`",
             Lists.newArrayList("c"),
-            is(listFile.getList("d"))
+            listFile.getList("d")
         );
     }
 }
