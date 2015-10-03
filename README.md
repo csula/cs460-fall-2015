@@ -17,11 +17,9 @@ Welcome to CS460 Artificial Intelligence. This is a fast-paced course with empha
 
 ## Announcements
 
-* No class on October 3rd due to Senior Design event. I (Eric) will still be in classroom if anyone needs assistance in regards of the first exercise.
-
+* Due to some confusions on Github/Git usage, here is [an article talking about Git/Github written from myself](documents/misc/github-tutorial.md).
 * We just got the discount from Github education for private repositories. Therefore, on next class your current repository will be replaced by another private repository.
 
-* Due to some confusions on Github/Git usage, I will have a short section next class for teaching Git/Github. Stay tuned!
 
 ## Quick Start Guide
 
