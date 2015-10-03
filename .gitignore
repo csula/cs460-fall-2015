@@ -1,4 +1,13 @@
-.DS_Store
+*.class
 build/
 .gradle
-*.class
+
+# Mac
+.DS_Store
+
+# Eclipse generated files
+.classpath
+.project
+.settings/
+tmp/
+bin/
