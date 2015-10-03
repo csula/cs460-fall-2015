@@ -5,6 +5,10 @@ build/
 # Mac
 .DS_Store
 
+# IntelliJ project file
+.idea
+*.iml
+
 # Eclipse generated files
 .classpath
 .project
