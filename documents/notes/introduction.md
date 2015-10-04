@@ -84,7 +84,7 @@ You may start reading through the source code folder for some starting point of 
 > Note 2: DO NOT MODIFY ANY EXISTING CODE
 
 3. Pull request & review comments  
-> Note that in the pull request, you will see the build result immediatelly in the pull request status. Please make sure you at least pass the unit tests as they are one of the grading criteria.
+> Note that in the pull request, you will see the build result immediately in the pull request status. Please make sure you at least pass the unit tests as they are one of the grading criteria.
 
 If you have trouble pushing to your own repository under your workspace
 
