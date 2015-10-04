@@ -10,7 +10,7 @@ Due to various requests/confusions on how to use Git/Github, I'd like to take th
 
 With that being said, this article will first explains a few basic terminologies for Git like `branch`, `commit`, `push`, `Pull Request`, and `fetch` with `pull` with what they are visually. Then, we will go into basic *Hello World* example just like our first exercise.
 
-The goal of this tutorial is to give all students abilities and confidence to use Git/Github just like all other tools (e.g. email and chatroom) to increase **colloboration** of this class.
+The goal of this tutorial is to give all students abilities and confidence to use Git/Github just like all other tools (e.g. email and chat room) to increase **collaboration** of this class.
 
 Without further due, lets get started.
 
@@ -26,11 +26,11 @@ Without further due, lets get started.
 
 As this document is under misc folder, you will not be measured by your ability of using Git/Github.
 
-## Git/Github termonologies
+## Git/Github terminologies
 
 Reference: [Github Flow from Github guidelines][1]
 
-As the reference document above uses more general approach to explain what is Github flow, I'm going to use terms that is very specific to us (like assignment to feature) to explain what each termonology is.
+As the reference document above uses more general approach to explain what is Github flow, I'm going to use terms that is very specific to us (like assignment to feature) to explain what each terminology is.
 
 **branch**
 

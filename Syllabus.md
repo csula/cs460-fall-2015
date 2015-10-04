@@ -3,7 +3,7 @@
 ## Course Overview
 
 - **Objective** The primary objective of this course is to introduce knowledge representation, problem solving and learning methods of Artificial Intelligence. Furthermore, students will be learning how to apply such techniques into  games.
-- **Expectation** Students are expected to have Java programming background as the entire course will be primary taught in Java. In addtion, students are expected to devote a large amount of time learning how to implement algorithms learned in class.
+- **Expectation** Students are expected to have Java programming background as the entire course will be primary taught in Java. In addition, students are expected to devote a large amount of time learning how to implement algorithms learned in class.
 
 ## Logistics
 
@@ -26,7 +26,7 @@
 1. Quiz (4) 40 pts
 2. Homework (4) 40 pts
 3. Course Project 20 pts
-4. Attendeance 5 pts
+4. Attendance 5 pts
 
 **Final Project** Homework assignments culminate in a final project: a complete application/game that utilizes the AI theories. **Successful completion of the course project is a requirement for passing this course.**
 

@@ -1,10 +1,8 @@
 package edu.csula.cs460.file;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertThat;
 
 import org.junit.Test;
-import org.junit.Before;
 
 import com.google.common.collect.Lists;
 
