@@ -28,7 +28,7 @@ public class ListFile {
         try (Scanner in = new Scanner(file)) {
             while (in.hasNextLine()) {
                 // consider Java doesn't have destruct, we will need to
-                // create a temp variable to hodl both key and values
+                // create a temp variable to hold both key and values
                 String[] parts = in.nextLine().split(":");
                 // stream api power with lambda expression
                 Arrays.stream(parts[1].split(" "))

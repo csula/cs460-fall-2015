@@ -24,7 +24,7 @@ public class MatrixFile {
             while (in.hasNextLine()) {
                 dynamicMatrix.add(
                     Arrays.stream(in.nextLine().split(" "))
-                        .mapToInt(value -> Integer.parseInt(value))
+                        .mapToInt(Integer::parseInt)
                         .toArray()
                 );
             }
