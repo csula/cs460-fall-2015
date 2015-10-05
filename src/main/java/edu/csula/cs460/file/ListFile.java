@@ -1,49 +1,53 @@
 package edu.csula.cs460.file;
 
 import java.util.Arrays;
-import java.util.Scanner;
 import java.util.Map;
 import java.util.List;
-import java.io.File;
 import java.io.IOException;
+import java.util.concurrent.atomic.AtomicReferenceArray;
 
+import com.google.common.base.Charsets;
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.ListMultimap;
 import com.google.common.collect.Multimaps;
+import com.google.common.io.Resources;
 
 public class ListFile {
     // try to make *all* variables final as possible
-    private final Map<String, List<String>> adjancencyList;
+    private final Map<String, List<String>> adjacencyList;
 
     public ListFile(String filepath) {
         // ListMultimap is a very useful class when it comes to Map of key
         // to a Collection of values
         ListMultimap<String, String> multimap = ArrayListMultimap.create();
 
-        // use class loader to read file from `resources` folder
-        ClassLoader classLoader = getClass().getClassLoader();
-        File file = new File(classLoader.getResource(filepath).getFile());
+        try {
+            // use Guava to read file from resources folder
+            String content = Resources.toString(
+                Resources.getResource(filepath),
+                Charsets.UTF_8
+            );
 
-        // try with resources (auto closable)
-        try (Scanner in = new Scanner(file)) {
-            while (in.hasNextLine()) {
-                // consider Java doesn't have destruct, we will need to
-                // create a temp variable to hold both key and values
-                String[] parts = in.nextLine().split(":");
-                // stream api power with lambda expression
-                Arrays.stream(parts[1].split(" "))
-                    .forEach(value -> multimap.put(parts[0], value));
-            }
+            Arrays.stream(content.split("\n"))
+                .forEach(value -> {
+                    AtomicReferenceArray<String> parts =
+                        new AtomicReferenceArray<>(value.split(":"));
+
+                    Arrays.stream(parts.get(1).split(" "))
+                        .forEach(listValue -> {
+                            multimap.put(parts.get(0), listValue);
+                        });
+                });
         } catch (IOException e) {
             // in case of error, always log error!
             System.err.println("ListFile has trouble reading file");
             e.printStackTrace();
         }
 
-        adjancencyList = Multimaps.asMap(multimap);
+        adjacencyList = Multimaps.asMap(multimap);
     }
 
     public List<String> getList(String key) {
-        return adjancencyList.get(key);
+        return adjacencyList.get(key);
     }
 }

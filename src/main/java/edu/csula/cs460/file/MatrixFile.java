@@ -1,6 +1,8 @@
 package edu.csula.cs460.file;
 
+import com.google.common.base.Charsets;
 import com.google.common.collect.Lists;
+import com.google.common.io.Resources;
 
 import java.util.Arrays;
 import java.util.List;
@@ -13,21 +15,24 @@ public class MatrixFile {
 
     public MatrixFile(String filepath) {
         // since we don't know how many rows there is going to be, we will
-        // create a list to hold it instead
+        // create a list to hold dynamic arrays instead
         List<int[]> dynamicMatrix = Lists.newArrayList();
 
-        // use class loader to read file from `resources` folder
-        ClassLoader classLoader = getClass().getClassLoader();
-        File file = new File(classLoader.getResource(filepath).getFile());
+        try {
+            // use Guava to read file from resources folder
+            String content = Resources.toString(
+                Resources.getResource(filepath),
+                Charsets.UTF_8
+            );
 
-        try (Scanner in = new Scanner(file)) {
-            while (in.hasNextLine()) {
-                dynamicMatrix.add(
-                    Arrays.stream(in.nextLine().split(" "))
-                        .mapToInt(Integer::parseInt)
-                        .toArray()
-                );
-            }
+            Arrays.stream(content.split("\n"))
+                .forEach(line -> {
+                    dynamicMatrix.add(
+                        Arrays.stream(line.split(" "))
+                            .mapToInt(Integer::parseInt)
+                            .toArray()
+                    );
+                });
         } catch (IOException e) {
             // in case of error, always log error!
             System.err.println("MatrixFile has trouble reading file");
