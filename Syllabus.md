@@ -62,16 +62,16 @@ The schedule below is tentative and is subject to change.
 
 * Lecture 4: [10/17] [Brute Force](documents/notes/general-search.md), e.g. BFS & DFS (Eric); HW1: Graph Representation
 
-* Lecture 5: [10/24] [More Search](documents/notes/advanced-search.md), e.g. Dijkstra (Eric); Q1: Representation & Brute Force
+* Lecture 5: [10/24] [Heuristic Search](documents/notes/heuristic-search.md), e.g. A* (John); Q1: Representation & Brute Force
 
-* Lecture 6: [10/31] [Heuristic Search](documents/notes/heuristic-search.md), e.g. A* (John); HW2: General Search
+* Lecture 6: [10/31] [More Search](documents/notes/advanced-search.md), e.g. Dijkstra (Eric); HW2: General Search
 
 * Lecture 7: [11/7]  [Alpha-Beta pruning](documents/notes/alpha-beta-pruning.md) (Eric); Q2: Heuristic Search
 
 * Lecture 8: [11/14] Alpha-Beta pruning (Eric); [Min-max](documents/notes/min-max.md); (John); HW3: Heuristic Search
 
-* Lecture 9: [11/21] Min-max (John); Q3: Alpha-Beta pruning
+* Lecture 9: [11/21] Min-max (John); Q3: Alpha-Beta pruning; Quiz 4: Min-max
 
-* Lecture 10: [11/28] Course wrap-up and [Project Preparation](documents/final-project/project.md) (Eric/John); Quiz 4: Min-max; HW4: Search Optimization
+* Lecture 10: [11/28] No class due to Thanks Giving, Happy Turkey day! Course wrap-up and [Project Preparation](documents/final-project/project.md) (Eric/John); HW4: Search Optimization
 
-* Final: Activity - In class tournament (Have fun!) (Eric/John)
+* Final: Activity - In class tournament (project) (Have fun!) (Eric/John)
