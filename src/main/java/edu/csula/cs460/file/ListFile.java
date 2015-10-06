@@ -1,21 +1,53 @@
 package edu.csula.cs460.file;
 
+import java.util.Arrays;
 import java.util.Map;
 import java.util.List;
-import java.util.ArrayList;
+import java.io.IOException;
+import java.util.concurrent.atomic.AtomicReferenceArray;
 
-import com.google.common.collect.Lists;
+import com.google.common.base.Charsets;
+import com.google.common.collect.ArrayListMultimap;
+import com.google.common.collect.ListMultimap;
+import com.google.common.collect.Multimaps;
+import com.google.common.io.Resources;
 
 public class ListFile {
-    private Map<String, List<String>> adjancencyList;
+    // try to make *all* variables final as possible
+    private final Map<String, List<String>> adjacencyList;
 
     public ListFile(String filepath) {
-        // TODO: read file from filepath ('exercise-1/list-1.txt' for
-        // example) and parse line by line to fill out adjancencyList
+        // ListMultimap is a very useful class when it comes to Map of key
+        // to a Collection of values
+        ListMultimap<String, String> multimap = ArrayListMultimap.create();
+
+        try {
+            // use Guava to read file from resources folder
+            String content = Resources.toString(
+                Resources.getResource(filepath),
+                Charsets.UTF_8
+            );
+
+            Arrays.stream(content.split("\n"))
+                .forEach(value -> {
+                    AtomicReferenceArray<String> parts =
+                        new AtomicReferenceArray<>(value.split(":"));
+
+                    Arrays.stream(parts.get(1).split(" "))
+                        .forEach(listValue -> {
+                            multimap.put(parts.get(0), listValue);
+                        });
+                });
+        } catch (IOException e) {
+            // in case of error, always log error!
+            System.err.println("ListFile has trouble reading file");
+            e.printStackTrace();
+        }
+
+        adjacencyList = Multimaps.asMap(multimap);
     }
 
     public List<String> getList(String key) {
-        // TODO: get List of String for specific key
-        return Lists.newArrayList();
+        return adjacencyList.get(key);
     }
 }

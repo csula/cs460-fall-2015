@@ -1,20 +1,54 @@
 package edu.csula.cs460.file;
 
+import com.google.common.base.Charsets;
+import com.google.common.collect.Lists;
+import com.google.common.io.Resources;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.Scanner;
+import java.io.File;
+import java.io.IOException;
+
 public class MatrixFile {
-    private int[][] matrix;
+    private final int[][] matrix;
 
     public MatrixFile(String filepath) {
-        // TODO: read file from filepath ('exercise-1/2d-array-1.txt' for
-        // example) and parse line by line to fill out matrix
+        // since we don't know how many rows there is going to be, we will
+        // create a list to hold dynamic arrays instead
+        List<int[]> dynamicMatrix = Lists.newArrayList();
+
+        try {
+            // use Guava to read file from resources folder
+            String content = Resources.toString(
+                Resources.getResource(filepath),
+                Charsets.UTF_8
+            );
+
+            Arrays.stream(content.split("\n"))
+                .forEach(line -> {
+                    dynamicMatrix.add(
+                        Arrays.stream(line.split(" "))
+                            .mapToInt(Integer::parseInt)
+                            .toArray()
+                    );
+                });
+        } catch (IOException e) {
+            // in case of error, always log error!
+            System.err.println("MatrixFile has trouble reading file");
+            e.printStackTrace();
+        }
+
+        matrix = dynamicMatrix.stream().toArray(int[][]::new);
     }
 
     public int getValue(int row, int col) {
-        // TODO: get value of a specific row and column (starting index is 0)
-        return 0;
+        return matrix[row][col];
     }
 
     public int getSum() {
-        // TODO: return the sum of all numbers in matrix
-        return 0;
+        return Arrays.stream(matrix)
+            .mapToInt(row -> Arrays.stream(row).sum())
+            .sum();
     }
 }
