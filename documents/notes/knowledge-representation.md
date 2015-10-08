@@ -11,7 +11,7 @@
 * Basic graph traversal
 * Complexity analysis (space and/or time)
 
-# Graph Representation
+# Knowledge Representation
 
 # Graph as Data Structure
 
