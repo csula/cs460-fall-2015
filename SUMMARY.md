@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](README.md)
-* Syllabus
+* [Syllabus](SYLLABUS.md)
 
