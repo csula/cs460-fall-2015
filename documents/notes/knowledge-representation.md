@@ -11,16 +11,30 @@
 * Basic graph traversal
 * Complexity analysis (space and/or time)
 
-# Knowledge Representation
+# Information
 
-# Graph as Data Structure
+## Knowledge Representation
 
-# Graph Algorithms Overview
+### Examples
 
-* BFS
-* DFS
+* Social 
 
-# Graph Applications
+### Best Practices
+
+> Or at least good practices ...
+
+## Graph as Abstract Data Structure
+
+## Graph Traversal Algorithms Overview
+
+* Breadth First Search (BFS)
+* Depth First Search (DFS)
+* A-star
+* Dyj
+
+## Graph Applications
 
 * Map/city (locations)
 * Job scheduling
+
+# Learning
