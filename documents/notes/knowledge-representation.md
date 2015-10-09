@@ -19,7 +19,6 @@
 
 * Social network
 * Map/city (locations)
-* Job scheduling
 * Game States
 
 ### Types of Graphs
@@ -79,4 +78,4 @@ Remarks | Slow to remove vertices and edges, because it needs to find all vertic
 
 ## Homework 1
 
-Implement remaining code for graph package
+Finish remaining code for graph package
