@@ -25,7 +25,6 @@
 ### Types of Graphs
 
 * Directed/Undirected
-* 
 
 ### Best Practices
 
