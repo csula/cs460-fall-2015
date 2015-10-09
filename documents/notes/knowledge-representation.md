@@ -47,6 +47,6 @@
 * Breadth First Search (BFS)
 * Depth First Search (DFS)
 * A-star
-* Dyj
+* Dijkstra
 
 # Learning
