@@ -44,7 +44,7 @@
 
 #### Complexity Analysis
 
-
+![graph complexity](graph-complexity.png)
 
 ### Components
 
