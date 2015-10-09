@@ -1,6 +1,6 @@
 # Objectives
 
-* Learn how to represent knowledge using Graph
+* Learn how to represent knowledge using Graph as data structure
 * Homework 1 discussion
 
 # Metrics/Desired Outcomes
@@ -17,13 +17,30 @@
 
 ### Examples
 
-* Social 
+* Social network
+* Map/city (locations)
+* Job scheduling
+* Game States
+
+### Types of Graphs
+
+* Directed/Undirected
+* 
 
 ### Best Practices
 
 > Or at least good practices ...
 
+* Abstract as graph data structure
+* Abstract problems as states
+
 ## Graph as Abstract Data Structure
+
+### Components
+
+* Node (vertex)
+* Edge
+* Graph
 
 ## Graph Traversal Algorithms Overview
 
@@ -31,10 +48,5 @@
 * Depth First Search (DFS)
 * A-star
 * Dyj
-
-## Graph Applications
-
-* Map/city (locations)
-* Job scheduling
 
 # Learning
