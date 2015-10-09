@@ -25,6 +25,7 @@
 ### Types of Graphs
 
 * Directed/Undirected
+* Weighted
 
 ### Best Practices
 
@@ -35,11 +36,26 @@
 
 ## Graph as Abstract Data Structure
 
+### 3 ways to represent graph
+
+1. Adjacency Matrix
+2. Adjacency List
+3. Object Oriented
+
+#### Complexity Analysis
+
+
+
 ### Components
 
 * Node (vertex)
 * Edge
 * Graph
+
+### Methods
+
+* Adjacent
+* Neighbors
 
 ## Graph Traversal Algorithms Overview
 
