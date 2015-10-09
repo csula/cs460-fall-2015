@@ -44,7 +44,16 @@
 
 #### Complexity Analysis
 
-![graph complexity](graph-complexity.png)
+  | Adjacency List | Adjacency Matrix 
+-- | -- | --
+Store graph | O(&#124;V&#124; + &#124;E&#124;) | O(&#124;V&#124;<sup>2</sup>)
+Add vertex | O(1)| O(&#124;V&#124;<sup>2</sup>)
+Add edge | O(1) | O(1) 
+Remove vertex | O(&#124;E&#124;) | O(&#124;V&#124;<sup>2</sup>)
+Remove edge | O(&#124;E&#124;) | O(1)
+Query | O(&#124;V&#124;) | O(1)
+Remarks | Slow to remove vertices and edges, because it needs to find all vertices or edges | Slow to add or remove vertices, because matrix must be re-sized/copied
+
 
 ### Components
 
