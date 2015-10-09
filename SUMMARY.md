@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
 * [Syllabus](Syllabus.md)
-* [Knowledge Representation](documents/notes/knowledge-representation.md)
+* [Lesson 1 - Knowledge Representation](documents/notes/knowledge-representation.md)
 
