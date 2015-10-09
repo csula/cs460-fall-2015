@@ -48,5 +48,7 @@
 * Depth First Search (DFS)
 * A-star
 * Dijkstra
+* Alpha-beta
+* Min-max
 
 # Learning
