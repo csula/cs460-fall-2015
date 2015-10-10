@@ -1,6 +1,7 @@
 package edu.csula.cs460.graph.strategy;
 
 import edu.csula.cs460.graph.Node;
+import edu.csula.cs460.graph.Edge;
 
 import java.io.File;
 import java.util.List;
@@ -34,12 +35,12 @@ public class AdjacencyList implements Representation {
     }
 
     @Override
-    public boolean addEdge(Node x) {
+    public boolean addEdge(Edge x) {
         return false;
     }
 
     @Override
-    public boolean removeEdge(Node x) {
+    public boolean removeEdge(Edge x) {
         return false;
     }
 }

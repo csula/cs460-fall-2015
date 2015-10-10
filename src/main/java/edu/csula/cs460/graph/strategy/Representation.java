@@ -1,6 +1,7 @@
 package edu.csula.cs460.graph.strategy;
 
 import edu.csula.cs460.graph.Node;
+import edu.csula.cs460.graph.Edge;
 
 import java.io.File;
 import java.util.List;
@@ -39,7 +40,7 @@ public interface Representation {
 
     boolean removeNode(Node x);
 
-    boolean addEdge(Node x);
+    boolean addEdge(Edge x);
 
-    boolean removeEdge(Node x);
+    boolean removeEdge(Edge x);
 }

@@ -7,7 +7,8 @@ import java.io.File;
 import java.util.List;
 
 public class AdjacencyMatrix implements Representation {
-    private Edge[][] adjacencyMatrix;
+    private Node[] nodes;
+    private int[][] adjacencyMatrix;
 
     protected AdjacencyMatrix(File file) {
         // TODO: read file and parse the file content into adjacencyMatrix
@@ -34,12 +35,12 @@ public class AdjacencyMatrix implements Representation {
     }
 
     @Override
-    public boolean addEdge(Node x) {
+    public boolean addEdge(Edge x) {
         return false;
     }
 
     @Override
-    public boolean removeEdge(Node x) {
+    public boolean removeEdge(Edge x) {
         return false;
     }
 }

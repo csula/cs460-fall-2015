@@ -35,12 +35,12 @@ public class ObjectOriented implements Representation {
     }
 
     @Override
-    public boolean addEdge(Node x) {
+    public boolean addEdge(Edge x) {
         return false;
     }
 
     @Override
-    public boolean removeEdge(Node x) {
+    public boolean removeEdge(Edge x) {
         return false;
     }
 }
