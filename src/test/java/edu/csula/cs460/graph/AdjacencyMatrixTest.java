@@ -3,6 +3,7 @@ package edu.csula.cs460.graph;
 import com.google.common.collect.Lists;
 import edu.csula.cs460.graph.strategy.Representation;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.io.File;
@@ -11,6 +12,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
+@Ignore
 public class AdjacencyMatrixTest {
     private Graph graph1;
     private Graph graph2;
