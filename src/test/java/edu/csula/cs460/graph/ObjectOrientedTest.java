@@ -12,7 +12,6 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
-@Ignore
 public class ObjectOrientedTest {
     private Graph graph1;
     private Graph graph2;
@@ -20,8 +19,8 @@ public class ObjectOrientedTest {
     @Before
     public void setup() {
         ClassLoader classLoader = getClass().getClassLoader();
-        File file1 = new File(classLoader.getResource("homework-1/graph1").getFile());
-        File file2 = new File(classLoader.getResource("homework-1/graph2").getFile());
+        File file1 = new File(classLoader.getResource("homework-1/graph-1.txt").getFile());
+        File file2 = new File(classLoader.getResource("homework-1/graph-2.txt").getFile());
 
         graph1 = new Graph(
             Representation.of(
