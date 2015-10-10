@@ -1,5 +1,9 @@
 # Description
 
+Before you start this homework, be sure to click [here to start homework repository](https://classroom.github.com/assignment-invitations/82e9eab0edec65760ab7b33d43792fec)
+
+> Note that this repository will be private and only be yours, please don't share your code out to your colleague(s). Sharing code will be considered as cheating and thus will be graded as zero for both parties.
+
 **Graph Representation**
 
 * Being able to read from file (Java IO)
@@ -7,11 +11,9 @@
 
 # Tasks
 
-1. Run provided main method
-2. Read graph from file
-3. Write graph to file
-4. Verify code by looking at graph
-5. Visualize graph [Optional]
+1. Read graph from file
+2. Verify code by looking at graph
+3. Visualize graph [Optional]
 
 # Deliverable
 
