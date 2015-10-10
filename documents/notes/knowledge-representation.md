@@ -5,10 +5,10 @@
 
 # Metrics/Desired Outcomes
 
-* Understanding graphs theory
-* Programming graphs
-* Reading/writing graphs from/to file
-* Basic graph traversal
+* Understanding Graph Theory
+* Programming Graph
+* Reading/writing Graph from/to file
+* Basic graph traversal (overview)
 * Complexity analysis (space and/or time)
 
 # Knowledge Representation
