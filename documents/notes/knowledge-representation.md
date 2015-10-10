@@ -15,6 +15,10 @@
 
 ## Information
 
+### Important Announcement
+
+Since we just got our discount from Github for private repositories, I will be closing all your exercise repositories and have you to click on another link to create private homework repository.
+
 #### Graph Components
 
 * Node (Usually called Vertex)
