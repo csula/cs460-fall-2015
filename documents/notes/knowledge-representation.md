@@ -15,6 +15,17 @@
 
 ## Information
 
+#### Graph Components
+
+* Node (Usually called Vertex)
+* Edge
+* Graph
+
+#### Methods
+
+* Adjacent
+* Neighbors
+
 ### Examples
 
 * Social network
@@ -25,6 +36,14 @@
 
 * Directed/Undirected 
 * Weighted
+* Dense/Sparse
+
+> Dense graph: graph has a lot more edges than vertices (usually defined as `|E| = O(|V|)` where |E| is number of edges and |V| is number of vercices)  
+> Sparse graph: graph has relative fewer edges than vertices (usually defined as `|E| = Θ(|V^2|)`)
+
+![](graph-tree.png)
+![](graph-direct.png)
+![](graph-weight.png)
 
 ### Graph as Abstract Data Structure
 
@@ -33,6 +52,9 @@
 1. Adjacency Matrix
 2. Adjacency List
 3. Object Oriented (objects and pointers)
+
+![](adjacency-matrix-undirect.png)
+![](adjacency-list.png)
 
 > With the complexity analysis below, be sure to know pros and cons for each one
 
@@ -50,17 +72,6 @@ Remarks | Slow to remove vertices and edges, because it needs to find all vertic
 
 Reference: [Wikipedia - Abstract data structure][wiki-graph]
 
-#### Components
-
-* Node (Usually called Vertex)
-* Edge
-* Graph
-
-#### Methods
-
-* Adjacent
-* Neighbors
-
 ### Graph Traversal Algorithms Overview
 
 * Breadth First Search (BFS)
@@ -77,7 +88,7 @@ Reference: [Wikipedia - Abstract data structure][wiki-graph]
 * Strategy pattern (Representation interface)
 * Factory pattern (again Representation interface with static `of` method)
 
-### Homework 1
+### [Homework 1](../homeworks/homework1.md)
 
 Finish remaining code for graph package
 
