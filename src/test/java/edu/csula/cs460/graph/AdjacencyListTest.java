@@ -8,12 +8,10 @@ import java.io.File;
 
 import edu.csula.cs460.graph.strategy.Representation;
 import org.junit.Before;
-import org.junit.Ignore;
 import org.junit.Test;
 
 import com.google.common.collect.Lists;
 
-@Ignore
 public class AdjacencyListTest {
     private Graph graph1;
     private Graph graph2;
