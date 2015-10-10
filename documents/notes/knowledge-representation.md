@@ -74,8 +74,8 @@ Reference: [Wikipedia - Abstract data structure][wiki-graph]
 
 ### Graph Traversal Algorithms Overview
 
-* Breadth First Search (BFS)
-* Depth First Search (DFS)
+* **Breadth First Search** (BFS)
+* **Depth First Search** (DFS)
 * A-star
 * Dijkstra
 * Alpha-beta
