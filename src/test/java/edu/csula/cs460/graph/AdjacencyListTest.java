@@ -21,8 +21,8 @@ public class AdjacencyListTest {
     @Before
     public void setup() {
         ClassLoader classLoader = getClass().getClassLoader();
-        File file1 = new File(classLoader.getResource("homework-1/graph1").getFile());
-        File file2 = new File(classLoader.getResource("homework-1/graph2").getFile());
+        File file1 = new File(classLoader.getResource("homework-1/graph-1.txt").getFile());
+        File file2 = new File(classLoader.getResource("homework-1/graph-2.txt").getFile());
 
         graph1 = new Graph(
             Representation.of(
