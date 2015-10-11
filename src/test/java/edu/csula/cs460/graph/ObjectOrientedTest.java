@@ -71,7 +71,7 @@ public class ObjectOrientedTest {
         );
         assertEquals(
             "Test graph 1 neighbors for node 4",
-            Lists.newArrayList(new Node(5)),
+            Lists.newArrayList(new Node(5), new Node(7)),
             graph1.neighbors(new Node(4))
         );
         assertEquals(
