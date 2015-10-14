@@ -102,7 +102,7 @@ public class ObjectOrientedTest {
     public void testGraph1RemoveNode() {
         assertTrue(
             "Test graph 1 remove exiting node, should return true",
-            graph1.removeNode(new Node(1))
+            graph1.removeNode(new Node(6))
         );
 
         // test state of graph
