@@ -11,6 +11,8 @@
 
 # Recursion Review
 
+![Recursion by Google](recursion.png)
+
 * Base case
 * Induction
 
