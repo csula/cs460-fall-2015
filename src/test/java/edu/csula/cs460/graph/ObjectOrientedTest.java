@@ -20,8 +20,8 @@ public class ObjectOrientedTest {
     @Before
     public void setup() {
         ClassLoader classLoader = getClass().getClassLoader();
-        File file1 = new File(classLoader.getResource("homework-1/graph1").getFile());
-        File file2 = new File(classLoader.getResource("homework-1/graph2").getFile());
+        File file1 = new File(classLoader.getResource("homework-1/graph-1.txt").getFile());
+        File file2 = new File(classLoader.getResource("homework-1/graph-2.txt").getFile());
 
         graph1 = new Graph(
             Representation.of(
@@ -73,7 +73,7 @@ public class ObjectOrientedTest {
         );
         assertEquals(
             "Test graph 1 neighbors for node 4",
-            Lists.newArrayList(new Node(5)),
+            Lists.newArrayList(new Node(5), new Node(7)),
             graph1.neighbors(new Node(4))
         );
         assertEquals(
@@ -104,7 +104,7 @@ public class ObjectOrientedTest {
     public void testGraph1RemoveNode() {
         assertTrue(
             "Test graph 1 remove exiting node, should return true",
-            graph1.removeNode(new Node(1))
+            graph1.removeNode(new Node(6))
         );
 
         // test state of graph
