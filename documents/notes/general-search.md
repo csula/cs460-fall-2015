@@ -1,7 +1,9 @@
 # Objectives
 
-* Recursion Review
+* Homework 1 Announcement
+* Recap of Graph
 * DFS (Depth First Search)
+* Recursion Review
 * BFS (Breadth First Search)
 
 # Metrics/Desired Outcomes
@@ -25,6 +27,8 @@ certain problem.
 * Map
 * Maze
 * Game Tree
+* http://visualgo.net/dfsbfs.html
+* http://qiao.github.io/PathFinding.js/visual/
 
 > We have data now, how do we process it to produce a useful output?
 
