@@ -9,18 +9,30 @@
 * Understanding BFS/DFS
 * Able to implement BFS/DFS
 
-# Recursion Review
+# Information
 
-![Recursion by Google](recursion.png)
+## Recap of Graph
 
-* Base case
-* Induction
+* Graph
+* Node
+* Edge
 
-# DFS
+> Graph is just an abstract data structure you can use to traverse and reason behind
+certain problem.
+
+### Examples
+
+* Map
+* Maze
+* Game Tree
+
+> We have data now, how do we process it to produce a useful output?
+
+## Depth First Search (DFS)
 
 ![DFS](Depth-First-Search.gif)
 
-## Pseudocode
+### Pseudocode
 
 ```javascript
 function DFS(v) {
@@ -32,12 +44,18 @@ function DFS(v) {
     }
 }
 ```
+## Recursion Review
 
-# BFS
+![Recursion by Google](recursion.png)
+
+* Base case
+* Induction
+
+## Breadth First Search (BFS)
 
 ![BFS](Breadth-First-Search-Algorithm.gif)
 
-## Pseudocode
+### Pseudocode
 
 ```javascript
 function BFS(v) {
