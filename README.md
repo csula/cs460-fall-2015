@@ -17,11 +17,12 @@ Welcome to CS460 Artificial Intelligence. This is a fast-paced course with empha
 
 ## Announcements
 
+* Solution for the Hacker Rank Save Princess is posted on the [Lesson 2](documents/notes/general-search.md)
+* Homework 1 is due this Sunday midnight (Oct 25th 23:59:59), any changes after it will be rejected. Please submit your PR before then.
+
+---
 * [Read as Gitboook here](https://rcliao.gitbooks.io/cs460-fall-2015/content/)
 * Due to some confusions on Github/Git usage, here is [an article talking about Git/Github written from myself](documents/misc/github-tutorial.md).
-* Updated class schedule for the Thanks Giving day off in [Syllabus.md](Syllabus.md).
-* We just got the discount from Github education for private repositories. Therefore, on next class your current repository will be replaced by another private repository.
-
 
 ## Quick Start Guide
 
