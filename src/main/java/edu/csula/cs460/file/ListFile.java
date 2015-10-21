@@ -31,7 +31,7 @@ public class ListFile {
                     AtomicReferenceArray<String> parts =
                         new AtomicReferenceArray<>(value.split(":"));
 
-                    Arrays.stream(parts.get(1).split(" "))
+                    Arrays.stream(parts.get(1).split("\\s"))
                         .forEach(listValue -> {
                             multimap.put(parts.get(0), listValue);
                         });

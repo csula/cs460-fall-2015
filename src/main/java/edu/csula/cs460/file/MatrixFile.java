@@ -28,7 +28,7 @@ public class MatrixFile {
             Arrays.stream(content.split("\n"))
                 .forEach(line -> {
                     dynamicMatrix.add(
-                        Arrays.stream(line.split(" "))
+                        Arrays.stream(line.split("\\s"))
                             .mapToInt(Integer::parseInt)
                             .toArray()
                     );
