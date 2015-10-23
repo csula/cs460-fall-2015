@@ -52,7 +52,7 @@ public class DFSTest extends TestCase {
         return graphs;
     }
 
-    public void testBFS1() {
+    public void testDFS1() {
         Arrays.stream(graph1s)
             .forEach(graph -> {
                 assertEquals(
@@ -68,7 +68,7 @@ public class DFSTest extends TestCase {
             });
     }
 
-    public void testBFS2() {
+    public void testDFS2() {
         Arrays.stream(graph1s)
             .forEach(graph -> {
                 assertEquals(
@@ -84,7 +84,7 @@ public class DFSTest extends TestCase {
             });
     }
 
-    public void testBFS3() {
+    public void testDFS3() {
         Arrays.stream(graph1s)
             .forEach(graph -> {
                 assertEquals(
@@ -99,7 +99,7 @@ public class DFSTest extends TestCase {
             });
     }
 
-    public void testBFS4() {
+    public void testDFS4() {
         Arrays.stream(graph2s)
             .forEach(graph -> {
                 assertEquals(
@@ -115,7 +115,7 @@ public class DFSTest extends TestCase {
             });
     }
 
-    public void testBFS5() {
+    public void testDFS5() {
         Arrays.stream(graph2s)
             .forEach(graph -> {
                 assertEquals(
