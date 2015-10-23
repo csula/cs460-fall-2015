@@ -17,9 +17,12 @@ Welcome to CS460 Artificial Intelligence. This is a fast-paced course with empha
 
 ## Announcements
 
+* [Homework 2 is published now!](documents/homeworks/homework2.md)
+
+---
+
 * Solution for the Hacker Rank Save Princess is posted on the [Lesson 2](documents/notes/general-search.md)
 * Homework 1 is due this Sunday midnight (Oct 25th 23:59:59), any changes after it will be rejected. Please submit your PR before then.
-* [Homework 2 is published now!](documents/homeworks/homework2.md)
 
 ---
 * [Read as Gitboook here](https://rcliao.gitbooks.io/cs460-fall-2015/content/)
