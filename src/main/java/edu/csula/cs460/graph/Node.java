@@ -27,6 +27,13 @@ public class Node {
     }
 
     @Override
+    public String toString() {
+        return "Node{" +
+            "id=" + id +
+            '}';
+    }
+
+    @Override
     public int hashCode() {
         return getId();
     }

@@ -50,6 +50,15 @@ public class Edge {
     }
 
     @Override
+    public String toString() {
+        return "Edge{" +
+            "from=" + from +
+            ", to=" + to +
+            ", value=" + value +
+            '}';
+    }
+
+    @Override
     public int hashCode() {
         int result = getFrom() != null ? getFrom().hashCode() : 0;
         result = 31 * result + (getTo() != null ? getTo().hashCode() : 0);
