@@ -8,6 +8,7 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Scanner;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class AdjacencyMatrix implements Representation {
     private Node[] nodes;
@@ -53,7 +54,7 @@ public class AdjacencyMatrix implements Representation {
     public List<Node> neighbors(Node x) {
         List<Node> neighbors = new ArrayList<Node>();
         for (int i=0; i<nodes.length; i++){
-            if (adjacent(x, nodes[i]))
+            if (adjacencyMatrix[x.getId()][i] != 0)
                 neighbors.add(nodes[i]);
         }
         return neighbors;
@@ -67,21 +68,61 @@ public class AdjacencyMatrix implements Representation {
             }
         }
         int nodePos = x.getId();
+        ArrayList<Node> tempNodes = new ArrayList<Node>(Arrays.asList(nodes));
+        tempNodes.add(x);
+        nodes = new Node[tempNodes.size()];
+        nodes = tempNodes.toArray(nodes);
+        if (x.getId() > adjacencyMatrix.length) {
+            int[][] tempArray = new int[x.getId()][x.getId()];
+            for (int i = 0; i < adjacencyMatrix.length; i++) {
+                for (int j = 0; j < adjacencyMatrix.length; j++) {
+                    tempArray[i][j] = adjacencyMatrix[i][j];
+                }
+            }
+            adjacencyMatrix = tempArray;
+        }
         return true;
     }
 
     @Override
     public boolean removeNode(Node x) {
+        for (int i=0; i<nodes.length; i++) {
+            if (x.getId() == nodes[i].getId()) {
+                for (int j = 0; j<adjacencyMatrix.length; j++) {
+                    adjacencyMatrix[x.getId()][j] = 0;
+                }
+                for (int k =0; k<adjacencyMatrix.length; k++) {
+                    adjacencyMatrix[k][x.getId()] = 0;
+                }
+                ArrayList<Node> tempNodes = new ArrayList<Node>(Arrays.asList(nodes));
+                tempNodes.remove(x);
+                nodes = new Node[tempNodes.size()];
+                nodes = tempNodes.toArray(nodes);
+                return true;
+            }
+        }
         return false;
     }
 
     @Override
     public boolean addEdge(Edge x) {
-        return false;
+        if (adjacencyMatrix[x.getFrom().getId()][x.getTo().getId()] != 0) {
+            return false;
+        }
+        else {
+            adjacencyMatrix[x.getFrom().getId()][x.getTo().getId()] = x.getValue();
+            return true;
+        }
     }
 
     @Override
     public boolean removeEdge(Edge x) {
-        return false;
+        if (adjacencyMatrix[x.getFrom().getId()][x.getTo().getId()] == 0) {
+            return false;
+        }
+        else {
+            adjacencyMatrix[x.getFrom().getId()][x.getTo().getId()] = 0;
+            return true;
+        }
     }
 }
