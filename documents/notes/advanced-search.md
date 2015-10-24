@@ -19,12 +19,12 @@
 
 ## Background on A*
 
-* Is used for path finding and graph traversal
-* Has universal appeals including a number of optimization and AI problems
-* Excellent for unexplored graphs
+* Used for path finding and graph traversal
+* Universal appeals including a number of optimization and AI problems
+* Excellent for **unexplored** graphs
 * E. Dijkstra Search algorithm was introduced in 1959 
 * P. Hart N. Nilsson and B. Raphael introduced A* in 1968
-  * Each of them worked on different versions: A1, A2 
+  * Each worked on different versions: A1, A2 
 
 ## Algorithm description
 
@@ -43,18 +43,19 @@ Cost function f(n) = g(n) + h(n)
 * f(n) is the cost of the function at node n; used as for placement in priority queue
 * g(n) is the cost of getting to node n
 * h(n) is the heuristic (estimation) for getting from n to goal node
+  * Heuristic function must be **admissible**
+    * Must never overestimate the cost to goal h(x) <=  d(x,y) + h(y)
 
 ![Analysis of A*](a-star-analysis.png)
 
-Source: G. Heineman. Alorithms in a Nutshell.
+Source: Heineman, G et al. [Algorithms in a Nutshell, 1st ed.](http://shop.oreilly.com/product/9780596516246.do)
 
 ## Analysis of the algorithm
 
-* Heuristic function must be **admissible**
-  * Must never overestimate the cost to goal h(x) <=  d(x,y) + h(y)
-* Performance worst case: O(b^d)
+* Performance is measured with b and d
   * b is the branching factor
   * d is the depth 
+* Performance worst case: O(b^d)
 * Average case: O(b^d) 
 * Best case: O(b*d)
 
