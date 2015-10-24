@@ -61,6 +61,6 @@ Source: G. Heineman. Alorithms in a Nutshell.
 ## Related algorithms
 * Iterative deepening
 * Transposition tables
-* Hiearchy 
+* Hierarchy
 * Memory-bounded
 
