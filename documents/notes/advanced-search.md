@@ -45,6 +45,7 @@ Cost function f(n) = g(n) + h(n)
 * h(n) is the heuristic (estimation) for getting from n to goal node
 
 ![Analysis of A*](a-star-analysis.png)
+
 Source: G. Heineman. Alorithms in a Nutshell.
 
 ## Analysis of the algorithm
