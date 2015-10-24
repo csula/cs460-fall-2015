@@ -40,7 +40,7 @@
 
 ### Key Intutition
 Cost function f(n) = g(n) + h(n)
-* f(n) is the cost of the function at node n; used as for placement in priority queue)
+* f(n) is the cost of the function at node n; used as for placement in priority queue
 * g(n) is the cost of getting to node n
 * h(n) is the heuristic (estimation) for getting from n to goal node
 
@@ -50,7 +50,7 @@ Source: G. Heineman. Alorithms in a Nutshell.
 
 ## Analysis of the algorithm
 
-* Heuristic function must be **adminissible**
+* Heuristic function must be **admissible**
   * Must never overestimate the cost to goal h(x) <=  d(x,y) + h(y)
 * Performance worst case: O(b^d)
   * b is the branching factor
@@ -58,7 +58,7 @@ Source: G. Heineman. Alorithms in a Nutshell.
 * Average case: O(b^d) 
 * Best case: O(b*d)
 
-## Releated algorithms
+## Related algorithms
 * Iterative deepening
 * Transposition tables
 * Hiearchy 
