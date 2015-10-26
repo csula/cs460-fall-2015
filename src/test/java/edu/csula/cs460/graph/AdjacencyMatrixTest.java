@@ -72,7 +72,7 @@ public class AdjacencyMatrixTest {
         );
         assertEquals(
             "Test graph 1 neighbors for node 4",
-            Lists.newArrayList(new Node(5)),
+            Lists.newArrayList(new Node(5), new Node(7)),
             graph1.neighbors(new Node(4))
         );
         assertEquals(
@@ -103,7 +103,7 @@ public class AdjacencyMatrixTest {
     public void testGraph1RemoveNode() {
         assertTrue(
             "Test graph 1 remove exiting node, should return true",
-            graph1.removeNode(new Node(1))
+            graph1.removeNode(new Node(6))
         );
 
         // test state of graph

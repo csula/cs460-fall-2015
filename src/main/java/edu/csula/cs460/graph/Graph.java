@@ -1,5 +1,6 @@
 package edu.csula.cs460.graph;
 
+import edu.csula.cs460.graph.search.SearchStrategy;
 import edu.csula.cs460.graph.strategy.Representation;
 
 import java.util.List;
@@ -64,5 +65,13 @@ public class Graph {
      */
     public boolean removeEdge(Edge x) {
         return strategy.removeEdge(x);
+    }
+
+    /**
+     * Search through this graph from sourceNode to distNode and return a list
+     * of edges in between
+     */
+    public List<Edge> search(SearchStrategy strategy, Node source, Node dist) {
+        return strategy.search(this, source, dist);
     }
 }
