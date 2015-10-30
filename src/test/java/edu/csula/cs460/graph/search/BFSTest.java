@@ -45,7 +45,7 @@ public class BFSTest extends TestCase {
 
         graphs[2] = new Graph(
             Representation.of(
-                Representation.STRATEGY.ADJACENCY_LIST,
+                Representation.STRATEGY.OBJECT_ORIENTED,
                 file
             )
         );
@@ -59,8 +59,9 @@ public class BFSTest extends TestCase {
                 assertEquals(
                     "Test BFS on graph 1 from Node 1 to 8",
                     Lists.newArrayList(
-                        new Edge(new Node(1), new Node(7), 1),
-                        new Edge(new Node(7), new Node(8), 1)
+                        new Edge(new Node(1), new Node(3), 1),
+                        new Edge(new Node(3), new Node(10), 1),
+                        new Edge(new Node(10), new Node(8), 1)
                     ),
                     graph.search(new BFS(), new Node(1), new Node(8))
                 );
@@ -74,7 +75,7 @@ public class BFSTest extends TestCase {
                     "Test BFS on graph 1 from Node 1 to 10",
                     Lists.newArrayList(
                         new Edge(new Node(1), new Node(3), 1),
-                        new Edge(new Node(7), new Node(10), 1)
+                        new Edge(new Node(3), new Node(10), 1)
                     ),
                     graph.search(new BFS(), new Node(1), new Node(10))
                 );
