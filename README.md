@@ -17,6 +17,7 @@ Welcome to CS460 Artificial Intelligence. This is a fast-paced course with empha
 
 ## Announcements
 
+* [Homework 1 Solution](https://github.com/csula/cs460-fall-2015/commit/64f0b601e032cef0dabc92900c4c7cf1e2f54be2)
 * [Homework 2 is published now!](documents/homeworks/homework2.md)
     * Related homework 2 changes
         * https://github.com/csula/cs460-fall-2015/commit/4c80b6aef15b21ca5f23d85acd3b370e08e6a201
