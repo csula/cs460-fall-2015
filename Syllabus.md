@@ -62,9 +62,9 @@ The schedule below is tentative and is subject to change.
 
 * Lecture 4: [10/17] [Brute Force](documents/notes/general-search.md), e.g. BFS & DFS (Eric)
 
-* Lecture 5: [10/24] [Heuristic Search](documents/notes/heuristic-search.md), e.g. A\* (John); Q1: Representation & Brute Force; **HW1: Graph Representation due**
+* Lecture 5: [10/24] [Heuristic Search](documents/notes/advanced-search.md), e.g. A\* (John); Q1: Representation & Brute Force; **HW1: Graph Representation due**
 
-* Lecture 6: [10/31] [More Search](documents/notes/advanced-search.md), e.g. Dijkstra (Eric); HW2: General Search
+* Lecture 6: [10/31] [More Search](documents/notes/dijkstra-algorithm.md), e.g. Dijkstra (Eric); HW2: General Search
 
 * Lecture 7: [11/7]  [Alpha-Beta pruning](documents/notes/alpha-beta-pruning.md) (Eric); Q2: Heuristic Search
 
