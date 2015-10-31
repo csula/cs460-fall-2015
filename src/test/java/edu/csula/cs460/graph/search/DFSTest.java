@@ -76,7 +76,9 @@ public class DFSTest extends TestCase {
                     Lists.newArrayList(
                         new Edge(new Node(1), new Node(2), 1),
                         new Edge(new Node(2), new Node(4), 1),
-                        new Edge(new Node(4), new Node(7), 1),
+                        new Edge(new Node(4), new Node(5), 1),
+                        new Edge(new Node(5), new Node(0), 1),
+                        new Edge(new Node(0), new Node(7), 1),
                         new Edge(new Node(7), new Node(10), 1)
                     ),
                     graph.search(new DFS(), new Node(1), new Node(10))
