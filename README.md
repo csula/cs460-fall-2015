@@ -18,11 +18,16 @@ Welcome to CS460 Artificial Intelligence. This is a fast-paced course with empha
 ## Announcements
 
 * [Homework 2 is published now!](documents/homeworks/homework2.md)
+    * Related homework 2 changes
+        * https://github.com/csula/cs460-fall-2015/commit/4c80b6aef15b21ca5f23d85acd3b370e08e6a201
+        * https://github.com/csula/cs460-fall-2015/commit/2434ffa6788fb834191c52365f222fcd893cd908
+        * https://github.com/csula/cs460-fall-2015/blob/master/src/test/java/edu/csula/cs460/graph/search/BFSTest.java
+        * https://github.com/csula/cs460-fall-2015/blob/master/src/test/java/edu/csula/cs460/graph/search/DFSTest.java
 
 ---
 
 * Solution for the Hacker Rank Save Princess is posted on the [Lesson 2](documents/notes/general-search.md)
-* Homework 1 is due this Sunday midnight (Oct 25th 23:59:59), any changes after it will be rejected. Please submit your PR before then.
+* Homework 1 grades are sent, please check your inbox to see if you have any question on the grade. Everything is stored on CSNS, you should also be able to see your grade on CSNS
 
 ---
 * [Read as Gitboook here](https://rcliao.gitbooks.io/cs460-fall-2015/content/)
