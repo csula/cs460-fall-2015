@@ -31,4 +31,4 @@
 
 ### Homework 2 Changes
 
-[Homework 2 description link](/documents/homeworks/homework2.md)
+[Homework 2 description link](../documents/homeworks/homework2.md)
