@@ -21,6 +21,7 @@ Welcome to CS460 Artificial Intelligence. This is a fast-paced course with empha
     * Related homework 2 changes
         * https://github.com/csula/cs460-fall-2015/commit/4c80b6aef15b21ca5f23d85acd3b370e08e6a201
         * https://github.com/csula/cs460-fall-2015/commit/2434ffa6788fb834191c52365f222fcd893cd908
+        * https://github.com/csula/cs460-fall-2015/commit/4d0b2674b53c15cad865a516d36be2cc488102bc
         * https://github.com/csula/cs460-fall-2015/blob/master/src/test/java/edu/csula/cs460/graph/search/BFSTest.java
         * https://github.com/csula/cs460-fall-2015/blob/master/src/test/java/edu/csula/cs460/graph/search/DFSTest.java
 
