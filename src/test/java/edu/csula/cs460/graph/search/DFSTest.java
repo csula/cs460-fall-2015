@@ -15,8 +15,8 @@ public class DFSTest extends TestCase {
     Graph[] graph1s;
     Graph[] graph2s;
 
-    @Override
-    public void setUp() {
+    @Before
+    public void setup() {
         ClassLoader classLoader = getClass().getClassLoader();
         File file1 = new File(classLoader.getResource("homework-1/graph-1.txt").getFile());
         File file2 = new File(classLoader.getResource("homework-1/graph-2.txt").getFile());
@@ -44,7 +44,7 @@ public class DFSTest extends TestCase {
 
         graphs[2] = new Graph(
             Representation.of(
-                Representation.STRATEGY.OBJECT_ORIENTED,
+                Representation.STRATEGY.ADJACENCY_LIST,
                 file
             )
         );
@@ -60,9 +60,7 @@ public class DFSTest extends TestCase {
                     Lists.newArrayList(
                         new Edge(new Node(1), new Node(2), 1),
                         new Edge(new Node(2), new Node(4), 1),
-                        new Edge(new Node(4), new Node(5), 1),
-                        new Edge(new Node(5), new Node(0), 1),
-                        new Edge(new Node(0), new Node(7), 1),
+                        new Edge(new Node(4), new Node(7), 1),
                         new Edge(new Node(7), new Node(8), 1)
                     ),
                     graph.search(new DFS(), new Node(1), new Node(8))
@@ -78,9 +76,8 @@ public class DFSTest extends TestCase {
                     Lists.newArrayList(
                         new Edge(new Node(1), new Node(2), 1),
                         new Edge(new Node(2), new Node(4), 1),
-                        new Edge(new Node(4), new Node(5), 1),
-                        new Edge(new Node(5), new Node(0), 1),
-                        new Edge(new Node(0), new Node(10), 1)
+                        new Edge(new Node(4), new Node(7), 1),
+                        new Edge(new Node(7), new Node(10), 1)
                     ),
                     graph.search(new BFS(), new Node(1), new Node(10))
                 );
@@ -109,7 +106,8 @@ public class DFSTest extends TestCase {
                     "Test BFS on graph 2 from Node 0 to 5",
                     Lists.newArrayList(
                         new Edge(new Node(0), new Node(1), 4),
-                        new Edge(new Node(1), new Node(2), 7),
+                        new Edge(new Node(1), new Node(4), 1),
+                        new Edge(new Node(4), new Node(2), 2),
                         new Edge(new Node(2), new Node(5), 2)
                     ),
                     graph.search(new BFS(), new Node(0), new Node(5))
@@ -124,7 +122,8 @@ public class DFSTest extends TestCase {
                     "Test BFS on graph 2 from Node 0 to 2",
                     Lists.newArrayList(
                         new Edge(new Node(0), new Node(1), 4),
-                        new Edge(new Node(1), new Node(2), 7)
+                        new Edge(new Node(1), new Node(4), 1),
+                        new Edge(new Node(4), new Node(2), 2)
                     ),
                     graph.search(new BFS(), new Node(0), new Node(2))
                 );
