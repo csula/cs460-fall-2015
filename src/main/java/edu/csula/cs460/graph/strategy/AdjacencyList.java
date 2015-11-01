@@ -152,4 +152,10 @@ public class AdjacencyList implements Representation {
         return adjacencyList.get(x.getFrom())
             .remove(x);
     }
+
+    @Override
+    public int distance(Node from, Node to) {
+        // TODO: implement a method to get edge value between fromNode to toNode
+        return 0;
+    }
 }

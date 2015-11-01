@@ -213,6 +213,12 @@ public class AdjacencyMatrix implements Representation {
         return true;
     }
 
+    @Override
+    public int distance(Node from, Node to) {
+        // TODO: implement a method to get edge value between fromNode to toNode
+        return 0;
+    }
+
     private int findIndexOfNode(Node x) {
         int index = -1;
 

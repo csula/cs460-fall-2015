@@ -121,4 +121,10 @@ public class ObjectOriented implements Representation {
     public boolean removeEdge(Edge x) {
         return edges.remove(x);
     }
+
+    @Override
+    public int distance(Node from, Node to) {
+        // TODO: implement a method to get edge value between fromNode to toNode
+        return 0;
+    }
 }

@@ -43,4 +43,6 @@ public interface Representation {
     boolean addEdge(Edge x);
 
     boolean removeEdge(Edge x);
+
+    int distance(Node from, Node to);
 }

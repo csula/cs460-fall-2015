@@ -68,10 +68,18 @@ public class Graph {
     }
 
     /**
+     * Get edge value between from node to to node
+     */
+    public int distance(Node from, Node to) {
+        return strategy.distance(from, to);
+    }
+
+    /**
      * Search through this graph from sourceNode to distNode and return a list
      * of edges in between
      */
     public List<Edge> search(SearchStrategy strategy, Node source, Node dist) {
         return strategy.search(this, source, dist);
     }
+
 }
