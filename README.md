@@ -20,11 +20,11 @@ Welcome to CS460 Artificial Intelligence. This is a fast-paced course with empha
 * [Homework 1 Solution](https://github.com/csula/cs460-fall-2015/commit/64f0b601e032cef0dabc92900c4c7cf1e2f54be2)
 * [Homework 2 is published now!](documents/homeworks/homework2.md)
     * Related homework 2 changes
-        * https://github.com/csula/cs460-fall-2015/commit/4c80b6aef15b21ca5f23d85acd3b370e08e6a201
-        * https://github.com/csula/cs460-fall-2015/commit/2434ffa6788fb834191c52365f222fcd893cd908
-        * https://github.com/csula/cs460-fall-2015/commit/4d0b2674b53c15cad865a516d36be2cc488102bc
-        * https://github.com/csula/cs460-fall-2015/blob/master/src/test/java/edu/csula/cs460/graph/search/BFSTest.java
-        * https://github.com/csula/cs460-fall-2015/blob/master/src/test/java/edu/csula/cs460/graph/search/DFSTest.java
+        * Diff
+            * https://github.com/csula/cs460-fall-2015/compare/812f1ad3d79ae2b61be786d798b01be982fef955...master
+        * Codes
+            * [BFSTest](https://github.com/csula/cs460-fall-2015/blob/master/src/test/java/edu/csula/cs460/graph/search/BFSTest.java)
+            * [DFSTest](https://github.com/csula/cs460-fall-2015/blob/master/src/test/java/edu/csula/cs460/graph/search/DFSTest.java)
 
 ---
 
