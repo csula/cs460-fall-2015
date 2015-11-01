@@ -25,15 +25,13 @@ Assume I give a test on BFS and DFS from node 1 to 8, they (BFS and DFS) will ge
 
 ```java
 graph.search(BFS(), new Node(1), new Node(8));
-// returns a list of edge from node 1 to 7 and node 7 to 8
 graph.search(DFS(), new Node(1), new Node(8));
-// returns a list of edge from node 1 to 2, node 2 to 4, 
-// node 4 to 7 and node 7 to 8
 ```
 
 # Tasks
 
 1. Implement BFS and DFS methods in `BFS.java` and `DFS.java`
+    1. Helper method `distance(fromNode, toNode)` in `ObjectOriented.java`, `AdjacencyMatrix.java` and `AdjacencyList.java`
 2. Verify implementation via provided unit tests
 3. ~~Solve maze escape game~~ (due to the time constraint)
 
@@ -43,8 +41,16 @@ graph.search(DFS(), new Node(1), new Node(8));
 
 :no_entry_sign: DO NOT MODIFY ANY EXISTING CODES :no_entry_sign:
 
+> but you can add more methods and variables as you go
+
 # Grading Rubric
 
-* Pass BFS unit tests [5 pts]
-* Pass DFS unit tests [5 pts]
+* Pass `BFS.java` [5 pts]
+    * Pass unit tests [3 pts]
+    * Coding style and minor details [2 pts]
+* Pass `DFS.java` [4 pts]
+    * Pass all unit tests [2 pts]
+    * Coding style and minor details [2 pts]
+* Distance method under `ObjectOriented.java`, `AdjacencyMatrix.java` and `AdjacencyList.java` [1 pts]
 * Bonus Question - Implement `Game` interface to create bot save princess game we discuss in class [2 pts]
+    > Being able to pass game state to player
