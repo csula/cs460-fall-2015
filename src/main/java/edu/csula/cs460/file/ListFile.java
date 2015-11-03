@@ -17,8 +17,6 @@ public class ListFile {
     private final Map<String, List<String>> adjacencyList;
 
     public ListFile(String filepath) {
-        // ListMultimap is a very useful class when it comes to Map of key
-        // to a Collection of values
         ListMultimap<String, String> multimap = ArrayListMultimap.create();
 
         try {
