@@ -83,7 +83,7 @@ It is also possible to solve the problem using BFS; however, I'll add timeout on
 * Pass `AStarTest.java` [5 pts]
     * Pass unit tests [3 pts]
     * Coding style and minor details [2 pts]
-* Pass `DijkstraTest.java` [4 pts]
-    * Pass all unit tests [2 pts]
+* Pass `DijkstraTest.java` [5 pts]
+    * Pass all unit tests [3 pts]
     * Coding style and minor details [2 pts]
 * Bonus Question - Solve A* using our Graph class rather than solving it plainly
