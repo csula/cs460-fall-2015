@@ -1,10 +1,16 @@
 package edu.csula.cs460.graph;
 
-public class Node {
+public class Node<T> {
     private int id;
+    private T data;
 
     public Node(int id) {
         this.id = id;
+        this.data = null;
+    }
+    public Node(int id, T data) {
+        this.id = id;
+        this.data = data;
     }
 
     public int getId() {
@@ -13,6 +19,14 @@ public class Node {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public T getData() {
+        return data;
+    }
+
+    public void setData(T data) {
+        this.data = data;
     }
 
     @Override

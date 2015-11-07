@@ -6,13 +6,11 @@ import edu.csula.cs460.graph.Graph;
 import edu.csula.cs460.graph.Node;
 import edu.csula.cs460.graph.strategy.Representation;
 import junit.framework.TestCase;
-import org.junit.Before;
-import org.junit.BeforeClass;
 
 import java.io.File;
 import java.util.Arrays;
 
-public class BFSTest extends TestCase {
+public class DijkstraTest extends TestCase {
     Graph[] graph1s;
     Graph[] graph2s;
 
@@ -53,74 +51,75 @@ public class BFSTest extends TestCase {
         return graphs;
     }
 
-    public void testBFS1() {
+    public void testDijastra1() {
         Arrays.stream(graph1s)
             .forEach(graph -> {
                 assertEquals(
-                    "Test BFS on graph 1 from Node 1 to 8",
+                    "Test Dijkstra on graph 1 from Node 1 to 8",
                     Lists.newArrayList(
                         new Edge(new Node(1), new Node(3), 1),
                         new Edge(new Node(3), new Node(10), 1),
                         new Edge(new Node(10), new Node(8), 1)
                     ),
-                    graph.search(new BFS(), new Node(1), new Node(8))
+                    graph.search(new Dijkstra(), new Node(1), new Node(8))
                 );
             });
     }
 
-    public void testBFS2() {
+    public void testDijkstra2() {
         Arrays.stream(graph1s)
             .forEach(graph -> {
                 assertEquals(
-                    "Test BFS on graph 1 from Node 1 to 10",
+                    "Test Dijkstra on graph 1 from Node 1 to 10",
                     Lists.newArrayList(
                         new Edge(new Node(1), new Node(3), 1),
                         new Edge(new Node(3), new Node(10), 1)
                     ),
-                    graph.search(new BFS(), new Node(1), new Node(10))
+                    graph.search(new Dijkstra(), new Node(1), new Node(10))
                 );
             });
     }
 
-    public void testBFS3() {
+    public void testDijkstra3() {
         Arrays.stream(graph1s)
             .forEach(graph -> {
                 assertEquals(
-                    "Test BFS on graph 1 from Node 1 to 5",
+                    "Test Dijkstra on graph 1 from Node 1 to 5",
                     Lists.newArrayList(
                         new Edge(new Node(1), new Node(2), 1),
                         new Edge(new Node(2), new Node(4), 1),
                         new Edge(new Node(4), new Node(5), 1)
                     ),
-                    graph.search(new BFS(), new Node(1), new Node(5))
+                    graph.search(new Dijkstra(), new Node(1), new Node(5))
                 );
             });
     }
 
-    public void testBFS4() {
+    public void testDijkstra4() {
         Arrays.stream(graph2s)
             .forEach(graph -> {
                 assertEquals(
-                    "Test BFS on graph 2 from Node 0 to 5",
+                    "Test Dijkstra on graph 2 from Node 1 to 5",
                     Lists.newArrayList(
-                        new Edge(new Node(0), new Node(3), 1),
-                        new Edge(new Node(3), new Node(5), 11)
+                        new Edge(new Node(1), new Node(4), 1),
+                        new Edge(new Node(4), new Node(5), 5)
                     ),
-                    graph.search(new BFS(), new Node(0), new Node(5))
+                    graph.search(new Dijkstra(), new Node(1), new Node(5))
                 );
             });
     }
 
-    public void testBFS5() {
+    public void testDijkstra5() {
         Arrays.stream(graph2s)
             .forEach(graph -> {
                 assertEquals(
-                    "Test BFS on graph 2 from Node 0 to 2",
+                    "Test Dijkstra on graph 2 from Node 0 to 5",
                     Lists.newArrayList(
-                        new Edge(new Node(0), new Node(1), 4),
-                        new Edge(new Node(1), new Node(2), 7)
+                        new Edge(new Node(0), new Node(6), 3),
+                        new Edge(new Node(6), new Node(4), 1),
+                        new Edge(new Node(4), new Node(5), 5)
                     ),
-                    graph.search(new BFS(), new Node(0), new Node(2))
+                    graph.search(new Dijkstra(), new Node(1), new Node(5))
                 );
             });
     }
