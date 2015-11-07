@@ -66,22 +66,22 @@ The schedule below is tentative and is subject to change.
     * **HW1: Graph Representation due**
 
 * Lecture 6: [10/31] [More Search](documents/notes/dijkstra-algorithm.md), e.g. Dijkstra's Algorithm (Eric)
-    * **HW2: General Search due Thursday Nov 5th Midnight**
+    * **HW2: General Search due Saturday Nov 7th 9am**
     * **Q1: Representation & Brute Force [take home] due at Monday Nov 2nd midnight**
 
-* Lecture 7: [11/7]  [Alpha-Beta pruning](documents/notes/alpha-beta-pruning.md) (Eric)
+* Lecture 7: [11/7] [Min-max](documents/notes/min-max.md) (Eric)
     * *Homework 3 announcement*
     * **Q2: Heuristic Search**
 
-* Lecture 8: [11/14] Alpha-Beta pruning (Eric); [Min-max](documents/notes/min-max.md); (John)
+* Lecture 8: [Alpha-Beta pruning](documents/notes/alpha-beta-pruning.md) (John)
     * **HW3: Heuristic Search due Sunday midnight Nov 15th**
 
-* Lecture 9: [11/21] Min-max (John)
+* Lecture 9: [11/21] Min-max (John, Eric)
     * Q3: Alpha-Beta pruning
     * Quiz 4: Min-max
     * Homework 4 announcement
 
-* Lecture 10: [11/28] No class due to Thanks Giving, Happy Turkey day! Course wrap-up and [Project Preparation online](documents/final-project/project.md) (Eric/John)
+* Lecture 10: [11/28] No class due to Thanks Giving, Happy Turkey day! Course wrap-up and [Project Preparation online](documents/final-project/project.md)
     * **HW4: Search Optimization due**
 
 * Final: Activity - In class tournament (project) (Have fun!) (Eric/John)
