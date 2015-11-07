@@ -1,5 +1,6 @@
 # Objectives
 
+* Quiz 1 Solution
 * Homework 2 Solution
 * Decision Theory
 * Minimax
@@ -12,8 +13,7 @@
 ## Minmax
 
 * Used in decision theory/game theory
-* 1 vs 1 game
-* Under the assumption of both player plays their best moves
+* Under the assumption of both players (you and your opponent(s)) play their best moves
     * Minimize the loss at worst case
     * Opponent **minimize** the score
     * You **maximize** the score
