@@ -30,3 +30,4 @@ Continue from your homework 2.
     * Pass all unit tests [2 pts]
     * Coding style and minor details [2 pts]
 * Bonus Question - Solve [Wolf, Goat, Cabbage](http://xkcd.com/1134/) [2 pts]
+> Stay tune for the update I will be pushing before Tuesday (Nov 10th)
