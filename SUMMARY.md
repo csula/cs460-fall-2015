@@ -9,4 +9,5 @@
 * [Lesson 3 - Advanced Search](documents/notes/advanced-search.md)
 * [Lesson 4 - Dijkstra's Algorithm](documents/notes/dijkstra-algorithm.md)
 * [Lesson 5 - Decision Theory (Minimax)](documents/notes/min-max.md)
+   * homework3
 
