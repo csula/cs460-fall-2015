@@ -12,7 +12,6 @@ Continue from your homework 2.
 
 1. Implement AStar and Dijkstra methods in `AStar.java` and `Dijkstra.java`
 2. Verify implementation via provided unit tests
-3. ~~Solve maze escape game~~ (due to the time constraint)
 
 # Deliverable
 
