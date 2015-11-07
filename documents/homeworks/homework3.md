@@ -67,7 +67,7 @@ It is also possible to solve the problem using BFS; however, I'll add timeout on
 # Tasks
 
 1. Implement AStar and Dijkstra methods in `AStar.java` and `Dijkstra.java`
-2. Implement `parseGridFile()` method in `AStarTest.java`
+2. Implement `searchFromGridFile(file)` method in `AStar.java`
 2. Verify implementation via provided unit tests
 
 # Deliverable
