@@ -15,6 +15,10 @@ public class ObjectOriented implements Representation {
     private List<Node> nodes;
     private List<Edge> edges;
 
+    protected ObjectOriented() {
+        nodes = Lists.newArrayList();
+        edges = Lists.newArrayList();
+    }
     protected ObjectOriented(File file) {
         nodes = Lists.newArrayList();
         edges = Lists.newArrayList();
@@ -124,7 +128,17 @@ public class ObjectOriented implements Representation {
 
     @Override
     public int distance(Node from, Node to) {
-        // TODO: implement a method to get edge value between fromNode to toNode
+        for (Edge edge: edges) {
+            if (edge.getFrom().equals(from) && edge.getTo().equals(to)) {
+                return edge.getValue();
+            }
+        }
+
         return 0;
+    }
+
+    @Override
+    public String toString() {
+        return "";
     }
 }

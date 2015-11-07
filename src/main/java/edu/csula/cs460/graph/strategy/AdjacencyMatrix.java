@@ -1,6 +1,5 @@
 package edu.csula.cs460.graph.strategy;
 
-import com.google.common.collect.Lists;
 import edu.csula.cs460.graph.Edge;
 import edu.csula.cs460.graph.Node;
 
@@ -15,6 +14,10 @@ public class AdjacencyMatrix implements Representation {
     private Node[] nodes;
     private int[][] adjacencyMatrix;
 
+    protected AdjacencyMatrix() {
+        nodes = new Node[0];
+        adjacencyMatrix = new int[0][0];
+    }
     protected AdjacencyMatrix(File file) {
         try {
             Scanner in = new Scanner(file);
@@ -46,22 +49,6 @@ public class AdjacencyMatrix implements Representation {
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
-    }
-
-    private void debugPrint() {
-        String nodeLine = "";
-        for (Node node: nodes) {
-            nodeLine += node.toString() + ", ";
-        }
-
-        System.out.println(nodeLine);
-
-       Arrays.stream(adjacencyMatrix)
-           .forEach(row -> {
-               Arrays.stream(row)
-                   .forEach(System.out::print);
-               System.out.println();
-           });
     }
 
     @Override
@@ -215,8 +202,33 @@ public class AdjacencyMatrix implements Representation {
 
     @Override
     public int distance(Node from, Node to) {
-        // TODO: implement a method to get edge value between fromNode to toNode
-        return 0;
+        int fromIndex = findIndexOfNode(from);
+        int toIndex = findIndexOfNode(to);
+
+        if (fromIndex == -1 || toIndex == -1) {
+            return 0;
+        }
+
+        return adjacencyMatrix[fromIndex][toIndex];
+    }
+
+    @Override
+    public String toString() {
+        String result = "nodes: ";
+        for (Node node: nodes) {
+            result += node.toString() + ", ";
+        }
+
+        result += "\nMatrix:\n";
+
+        for (int[] row: adjacencyMatrix) {
+            for (int value: row) {
+                result += value + " ";
+            }
+            result += "\n";
+        }
+
+        return result;
     }
 
     private int findIndexOfNode(Node x) {

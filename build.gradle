@@ -18,3 +18,9 @@ test {
     // show standard out and standard error of the test JVM(s) on the console
     testLogging.showStandardStreams = true
 }
+
+task quiz2(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+
+    main = 'edu.csula.cs460.app.Quiz2'
+}

@@ -31,6 +31,18 @@ public interface Representation {
                 throw new IllegalArgumentException();
         }
     }
+    static Representation of(STRATEGY strategy) {
+        switch (strategy) {
+            case ADJACENCY_LIST:
+                return new AdjacencyList();
+            case ADJACENCY_MATRIX:
+                return new AdjacencyMatrix();
+            case OBJECT_ORIENTED:
+                return new ObjectOriented();
+            default:
+                throw new IllegalArgumentException();
+        }
+    }
 
     boolean adjacent(Node x, Node y);
 
@@ -45,4 +57,6 @@ public interface Representation {
     boolean removeEdge(Edge x);
 
     int distance(Node from, Node to);
+
+    String toString();
 }

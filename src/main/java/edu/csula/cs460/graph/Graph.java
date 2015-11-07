@@ -82,4 +82,8 @@ public class Graph {
         return strategy.search(this, source, dist);
     }
 
+    @Override
+    public String toString() {
+        return strategy.toString();
+    }
 }

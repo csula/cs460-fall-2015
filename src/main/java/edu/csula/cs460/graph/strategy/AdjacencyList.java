@@ -11,6 +11,9 @@ import java.util.*;
 public class AdjacencyList implements Representation {
     private Map<Node, List<Edge>> adjacencyList;
 
+    protected AdjacencyList() {
+        adjacencyList = new HashMap<>();
+    }
     protected AdjacencyList(File file) {
         adjacencyList = new HashMap<>();
 
@@ -155,7 +158,21 @@ public class AdjacencyList implements Representation {
 
     @Override
     public int distance(Node from, Node to) {
-        // TODO: implement a method to get edge value between fromNode to toNode
+        if (!adjacencyList.containsKey(from)) {
+            return 0;
+        }
+
+        for (Edge edge: adjacencyList.get(from)) {
+            if (edge.getTo().equals(to)) {
+                return edge.getValue();
+            }
+        }
+
         return 0;
+    }
+
+    @Override
+    public String toString() {
+        return "";
     }
 }
