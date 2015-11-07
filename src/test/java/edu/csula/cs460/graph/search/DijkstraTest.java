@@ -119,7 +119,7 @@ public class DijkstraTest extends TestCase {
                         new Edge(new Node(6), new Node(4), 1),
                         new Edge(new Node(4), new Node(5), 5)
                     ),
-                    graph.search(new Dijkstra(), new Node(1), new Node(5))
+                    graph.search(new Dijkstra(), new Node(0), new Node(5))
                 );
             });
     }
