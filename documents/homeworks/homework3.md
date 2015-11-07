@@ -1,12 +1,12 @@
 # Important note
 
-Continue from your homework 2.
+Continue from your homework 2 and branch out a `homework-3` branch.
 
 # Description
 
 **Dijkstra's Algorithm**
 
-**Pictures worth a thousand word**
+**Using the same graph-1 and graph-2**
 
 ![Graphs](homework-2-graphs.png)
 
