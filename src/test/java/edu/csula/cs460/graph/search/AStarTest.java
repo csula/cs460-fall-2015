@@ -82,7 +82,7 @@ public class AStarTest {
         );
     }
 
-    @Test(timeout=30)
+    @Test(timeout=20)
     public void testAStar4() {
         File file = new File(classLoader.getResource("homework-3/grid-4.txt").getFile());
 
@@ -98,7 +98,7 @@ public class AStarTest {
 
     }
 
-    @Test(timeout=5)
+    @Test(timeout=180)
     public void testAStar5() {
         File file = new File(classLoader.getResource("homework-3/grid-5.txt").getFile());
 
@@ -108,7 +108,7 @@ public class AStarTest {
 
         assertEquals(
             "Test grid 5 from key point to key point",
-            "SSSSEESESSWSWWSSSSEEESSSWWWSSSEESE",
+            "SSSSSSSSEESESEEESSSSSESSEESESSESESEESSEESSSEEESEESSESSEEESSSESESESESESSEEESSSEESEESSEEESSSESEESSESEESSESEEESSEESSESESEESSESSEESSEESESSEESSESESEEEESSSEEESESESESESSEESSSESEESESSSESSEEESSESESESESESEESSEESESESSEEESEESSSEEESESESSSSEESSESESESESSEEESEESESSEEESSSSESESESESEEESEESSEEESSSEESSSEEEESSSSEESEESESSESSEEESSESSESSEESEEESSSEEESESESSESSEESSEEESSEESSEESSEEESSESSESSSSESEESEESEESSESSESESEEESESSSEEEEESSSSSE",
             result
         );
     }
