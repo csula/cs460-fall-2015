@@ -18,18 +18,16 @@ Welcome to CS460 Artificial Intelligence. This is a fast-paced course with empha
 ## Announcements
 
 * [Homework 1 Solution](https://github.com/csula/cs460-fall-2015/commit/64f0b601e032cef0dabc92900c4c7cf1e2f54be2)
-* [Homework 2 is published now!](documents/homeworks/homework2.md)
-    * Related homework 2 changes
-        * Diff
-            * https://github.com/csula/cs460-fall-2015/compare/812f1ad3d79ae2b61be786d798b01be982fef955...master
+* [Homework 2 Solution](https://github.com/csula/cs460-fall-2015/commit/68af5e2ef776c2cdd0ed96f329cb9823d1aee7e8)
+* [Homework 3 published](documents/homeworks/homework3.md)
+    * Related homework 3 changes
         * Codes
-            * [BFSTest](https://github.com/csula/cs460-fall-2015/blob/master/src/test/java/edu/csula/cs460/graph/search/BFSTest.java)
-            * [DFSTest](https://github.com/csula/cs460-fall-2015/blob/master/src/test/java/edu/csula/cs460/graph/search/DFSTest.java)
-
----
-
-* Solution for the Hacker Rank Save Princess is posted on the [Lesson 2](documents/notes/general-search.md)
-* Homework 1 grades are sent, please check your inbox to see if you have any question on the grade. Everything is stored on CSNS, you should also be able to see your grade on CSNS
+            * [AStar](https://github.com/csula/cs460-fall-2015/blob/master/src/main/java/edu/csula/cs460/graph/search/AStar.java)
+            * [Dijkstra](https://github.com/csula/cs460-fall-2015/blob/master/src/main/java/edu/csula/cs460/graph/search/Dijkstra.java)
+            * [AStarTest](https://github.com/csula/cs460-fall-2015/blob/master/src/test/java/edu/csula/cs460/graph/search/AStarTest.java)
+            * [DijkstraTest](https://github.com/csula/cs460-fall-2015/blob/master/src/test/java/edu/csula/cs460/graph/search/DijkstraTest.java)
+            * [Resources](https://github.com/csula/cs460-fall-2015/tree/master/src/main/resources/homework-30)
+            * [Test Resources](https://github.com/csula/cs460-fall-2015/tree/master/src/test/resources/homework-3)
 
 ---
 * [Read as Gitboook here](https://rcliao.gitbooks.io/cs460-fall-2015/content/)
