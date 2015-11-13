@@ -37,7 +37,7 @@ public class AStarTest {
         timer = Stopwatch.createStarted();
     }
 
-    @Test(timeout=5)
+    @Test(timeout=15)
     public void testAStar1() {
         File file = new File(classLoader.getResource("homework-3/grid-1.txt").getFile());
 
@@ -52,7 +52,7 @@ public class AStarTest {
         );
     }
 
-    @Test(timeout=5)
+    @Test(timeout=15)
     public void testAStar2() {
         File file = new File(classLoader.getResource("homework-3/grid-2.txt").getFile());
 
@@ -67,7 +67,7 @@ public class AStarTest {
         );
     }
 
-    @Test(timeout=5)
+    @Test(timeout=15)
     public void testAStar3() {
         File file = new File(classLoader.getResource("homework-3/grid-3.txt").getFile());
 
@@ -82,7 +82,7 @@ public class AStarTest {
         );
     }
 
-    @Test(timeout=20)
+    @Test(timeout=100)
     public void testAStar4() {
         File file = new File(classLoader.getResource("homework-3/grid-4.txt").getFile());
 
@@ -98,7 +98,7 @@ public class AStarTest {
 
     }
 
-    @Test(timeout=180)
+    @Test(timeout=550)
     public void testAStar5() {
         File file = new File(classLoader.getResource("homework-3/grid-5.txt").getFile());
 
