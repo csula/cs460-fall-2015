@@ -54,7 +54,7 @@ Back to adversarial search:
 
 Strategy: Alpha-beta recursively search the game tree and tracks two values: alpha and beta.  A couple of observations (rules):
 
-![Alpha Beta Summary](alpha-beta.png)
+![Alpha Beta Summary](alpha-beta-summary.png)
 
 * As long as alpha < beta, the branch is consider an opportunity.
 * Alpha is the lowerbound game states.
