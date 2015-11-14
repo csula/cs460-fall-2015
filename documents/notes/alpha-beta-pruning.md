@@ -34,13 +34,13 @@ Downside: even if a potentially bad move is ahead, minmax does not eliminate the
 
 (c) The third leaf below B has a value of 8; we have seen all B’s successor states, so the value of B is exactly 3. Now, we can infer that the value of the root is at least 3, because MAX has a choice worth 3 at the root. 
 
-(d) The first leaf below C has the value 2. Hence, C,whichisaMIN node,hasavalueofatmost2. ButweknowthatBisworth3,soMAX would never choose C. Therefore, there is no point in looking at the other successor states of C. This is an example of alpha–beta pruning. 
+(d) The first leaf below C has the value 2. Hence, C,which is a MIN node,has a value of at most2. But we know that B is worth 3, so MAX would never choose C. Therefore, there is no point in looking at the other successor states of C. This is an example of alpha–beta pruning. 
 
 (e) The first leaf below D has the value 14, so D is worth at most 14. This is still higher than MAX’s best alternative (i.e., 3), so we need to keep exploring D’s successor states. Notice also that we now have bounds on all of the successors of the root, so the root’s value is also at most 14. 
 
 (f) The second successor of D is worth 5, so again we need to keep exploring. The third successor is worth 2, so now D is worth exactly 2. MAX’s decision at the root is to move to B, giving a value of 3.
 
-![Alpha Beta Tree](alpha-beta-tree.png)
+![Alpha Beta General](alpha-beta-general.png)
 
 Generally speaking: if *m* is better than *n* for, then we will never see *n* so path leading up to *n* can be eliminated.
 
@@ -54,7 +54,7 @@ Back to adversarial search:
 
 Strategy: Alpha-beta recursively search the game tree and tracks two values: alpha and beta.  A couple of observations (rules):
 
-![Alpha Beta Summary](alpha-beta-pruning.png)
+![Alpha Beta Summary](alpha-beta.png)
 
 * As long as alpha < beta, the branch is consider an opportunity.
 * Alpha is the lowerbound game states.
@@ -113,7 +113,7 @@ public class AlphaBetaEvaluation implements IEvaluation {
 
 ### Min-Max and Alpha-Beta side-by-side Comparison
 
-![Min-Max Algorithm](min-max-algorithm.png)
+![Min-Max Algorithm](minimax-algorithm.png)
 ![Alpha-Beta Algorithm](alpha-beta-algorithm.png)
 
 * S0: The initial state, which specifies how the game is set up at the start.
