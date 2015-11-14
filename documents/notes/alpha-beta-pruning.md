@@ -111,19 +111,20 @@ public class AlphaBetaEvaluation implements IEvaluation {
 
 ```
 
-### Min-Max and Alpha-Beta side-by-side Comparison
+### Min-Max and Alpha-Beta Comparison
+
+Let us take a closer look at the two adversarial search algorithm side-by-side to see what part of the algorithm drives the improvements.
 
 ![Min-Max Algorithm](minimax-algorithm.png)
-![Alpha-Beta Algorithm](alpha-beta-algorithm.png)
 
 * S0: The initial state, which specifies how the game is set up at the start.
 * PLAYER(s): Defines which player has the move in a state.
 * ACTIONS(s): Returns the set of legal moves in a state.
 * RESULT(s,a): The transition model, which defines the result of a move.
-* TERMINAL-TEST(s): A terminal test, which is true when the game is over and false
-otherwise. States where the game has ended are called terminal states.
-* UTILITY(s, p): A utility function (also called an objective function or payoff function),
-defines the final numeric value for a game that ends in terminal state s for a player p. 
+* TERMINAL-TEST(s): A terminal test, which is true when the game is over and false otherwise. States where the game has ended are called terminal states.
+* UTILITY(s, p): A utility function (also called an objective function or payoff function), defines the final numeric value for a game that ends in terminal state s for a player p. 
+
+![Alpha-Beta Algorithm](alpha-beta-algorithm.png)
 
 ## Analysis
 
