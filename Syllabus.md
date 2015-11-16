@@ -74,7 +74,7 @@ The schedule below is tentative and is subject to change.
     * **Q2: Heuristic Search**
 
 * Lecture 8: [Alpha-Beta pruning](documents/notes/alpha-beta-pruning.md) (John)
-    * **HW3: Heuristic Search due Sunday midnight Nov 15th**
+    * **HW3: Heuristic Search due Sunday midnight Nov 18th**
 
 * Lecture 9: [11/21] Min-max (John, Eric)
     * Q3: Alpha-Beta pruning
