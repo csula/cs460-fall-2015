@@ -79,9 +79,13 @@ The schedule below is tentative and is subject to change.
 * Lecture 9: [11/21] Min-max (John, Eric)
     * Q3: Alpha-Beta pruning
     * Quiz 4: Min-max
+    * Project announcement
     * Homework 4 announcement
 
-* Lecture 10: [11/28] No class due to Thanks Giving, Happy Turkey day! Course wrap-up and [Project Preparation online](documents/final-project/project.md)
+* Holiday: [11/28] No class due to Thanks Giving, Happy Turkey day! Course wrap-up and [Project Preparation online](documents/final-project/project.md)
     * **HW4: Search Optimization due**
 
-* Final: Activity - In class tournament (project) (Have fun!) (Eric/John)
+* Lecture 10: [12/5] Last day of class
+    * In class tournament
+
+* Final: Activity - In class tournament continue (with presentation to show me what you have done) (Have fun!) (Eric/John)
