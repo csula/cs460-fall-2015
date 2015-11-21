@@ -1,5 +1,6 @@
 # Vindinium
 
+[Live example](http://vindinium.org/)
 [Project page](http://45.55.89.0:9000/doc)
 
 Your job here in this project is to implement a bot that can be ran in Vindinium world. You will be fighting against your colleagues in next class (after ThanksGiving).
