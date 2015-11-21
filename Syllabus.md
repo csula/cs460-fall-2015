@@ -74,10 +74,10 @@ The schedule below is tentative and is subject to change.
     * **Q2: Heuristic Search**
 
 * Lecture 8: [Alpha-Beta pruning](documents/notes/alpha-beta-pruning.md) (John)
-    * **HW3: Heuristic Search due Sunday midnight Nov 20th**
+    * **HW3: Heuristic Search due Wednesday midnight Nov 25th**
 
 * Lecture 9: [11/21] [Min-max & Alpha-Beta continued](documents/notes/alpha-beta-pruning-coninued.md) (John, Eric)
-    * Q3: Minimax && Alpha-Beta **due on Sunday night Nov 20th**
+    * Q3: Minimax && Alpha-Beta **due on Sunday night Nov 22th**
     * [Homework 4 announcement](documents/homeworks/homework4.md) **Due at beginning of class at Dec 5th (9am)**
     * [Project Preparation online](documents/final-project/project.md)
 
