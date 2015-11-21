@@ -222,5 +222,7 @@ Evaluate total 8 lines and return the sum score (vertical, diagonal and horizont
     ```
     - [ ] Using the above scores in the leaf node, pass it up and use in the minimax function
     - [ ] pick best move
+
+
 Extra:
 - [ ] Can your code take bidding into concern of minimax as well?
