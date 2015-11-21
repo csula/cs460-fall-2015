@@ -4,6 +4,7 @@ import edu.csula.cs460.graph.search.SearchStrategy;
 import edu.csula.cs460.graph.strategy.Representation;
 
 import java.util.List;
+import java.util.Optional;
 
 public class Graph {
     private final Representation strategy;
@@ -80,6 +81,13 @@ public class Graph {
      */
     public List<Edge> search(SearchStrategy strategy, Node source, Node dist) {
         return strategy.search(this, source, dist);
+    }
+
+    /**
+     * A simple method to get a node out of graph
+     */
+    public Optional<Node> getNode(int index) {
+        return strategy.getNode(index);
     }
 
     @Override

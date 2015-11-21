@@ -5,10 +5,7 @@ import edu.csula.cs460.graph.Node;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class AdjacencyMatrix implements Representation {
     private Node[] nodes;
@@ -198,6 +195,17 @@ public class AdjacencyMatrix implements Representation {
         adjacencyMatrix[indexX][indexY] = 0;
 
         return true;
+    }
+
+    @Override
+    public Optional<Node> getNode(int index) {
+        for (Node node: nodes) {
+            if (node.getId() == index) {
+                return Optional.of(node);
+            }
+        }
+
+        return Optional.empty();
     }
 
     @Override

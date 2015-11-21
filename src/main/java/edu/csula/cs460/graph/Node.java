@@ -30,25 +30,29 @@ public class Node<T> {
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Node)) return false;
-
-        Node node = (Node) o;
-
-        return getId() == node.getId();
-
-    }
-
-    @Override
     public String toString() {
         return "Node{" +
             "id=" + id +
+            ", data=" + data +
             '}';
     }
 
     @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Node)) return false;
+
+        Node<?> node = (Node<?>) o;
+
+        if (getId() != node.getId()) return false;
+        return !(getData() != null ? !getData().equals(node.getData()) : node.getData() != null);
+
+    }
+
+    @Override
     public int hashCode() {
-        return getId();
+        int result = getId();
+        result = 31 * result + (getData() != null ? getData().hashCode() : 0);
+        return result;
     }
 }

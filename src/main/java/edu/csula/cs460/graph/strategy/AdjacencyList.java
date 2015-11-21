@@ -157,6 +157,17 @@ public class AdjacencyList implements Representation {
     }
 
     @Override
+    public Optional<Node> getNode(int index) {
+        // TODO: when have time, implement correct method here
+        for (Node node: adjacencyList.keySet()) {
+            if (node.getId() == index) {
+                return Optional.of(node);
+            }
+        }
+        return Optional.empty();
+    }
+
+    @Override
     public int distance(Node from, Node to) {
         if (!adjacencyList.containsKey(from)) {
             return 0;
