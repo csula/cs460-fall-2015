@@ -77,7 +77,7 @@ The schedule below is tentative and is subject to change.
     * **HW3: Heuristic Search due Sunday midnight Nov 20th**
 
 * Lecture 9: [11/21] [Min-max & Alpha-Beta continued](documents/notes/alpha-beta-pruning-coninued.md) (John, Eric)
-    * Q3: Minmax
+    * Q3: Minimax && Alpha-Beta **due on Sunday night Nov 20th**
     * Homework 4 announcement
     * [Project Preparation online](documents/final-project/project.md)
 
@@ -85,6 +85,7 @@ The schedule below is tentative and is subject to change.
 
 * Lecture 10: [12/5] Last day of class
     * In class tournament
+    * Q4
     * **HW4: Search Optimization due**
 
 * Final: Activity - In class tournament continue (with presentation to show me what you have done) (Have fun!) (Eric/John)
