@@ -78,7 +78,7 @@ The schedule below is tentative and is subject to change.
 
 * Lecture 9: [11/21] [Min-max & Alpha-Beta continued](documents/notes/alpha-beta-pruning-coninued.md) (John, Eric)
     * Q3: Minimax && Alpha-Beta **due on Sunday night Nov 20th**
-    * [Homework 4 announcement](documents/homework/homework4.md) **Due at beginning of class at Dec 5th (9am)**
+    * [Homework 4 announcement](documents/homeworks/homework4.md) **Due at beginning of class at Dec 5th (9am)**
     * [Project Preparation online](documents/final-project/project.md)
 
 * Holiday: [11/28] No class due to Thanks Giving, Happy Turkey day!
