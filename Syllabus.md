@@ -76,7 +76,7 @@ The schedule below is tentative and is subject to change.
 * Lecture 8: [Alpha-Beta pruning](documents/notes/alpha-beta-pruning.md) (John)
     * **HW3: Heuristic Search due Sunday midnight Nov 20th**
 
-* Lecture 9: [11/21] Min-max (John, Eric)
+* Lecture 9: [11/21] [Min-max & Alpha-Beta continued](documents/notes/alpha-beta-pruning-coninued.md) (John, Eric)
     * Q3: Minmax
     * Homework 4 announcement
     * [Project Preparation online](documents/final-project/project.md)
