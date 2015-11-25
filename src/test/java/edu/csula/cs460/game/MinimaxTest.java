@@ -60,7 +60,7 @@ public class MinimaxTest {
     @Test
     public void testGetBestMove() {
         assertEquals(
-            new Node<>(2, -9),
+            new Node<>(1, 8),
             Minimax.getBestMove(graph, new Node<>(0, 0), 3, true)
         );
 
