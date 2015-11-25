@@ -15,7 +15,7 @@ public class MinimaxTest {
 
     @Before
     public void setUp() throws Exception {
-        for (int i = 0; i < 8; i ++) {
+        for (int i = 0; i < 7; i ++) {
             graph.addNode(new Node<>(i, 0));
         }
         graph.addNode(new Node<>(7, -10));
