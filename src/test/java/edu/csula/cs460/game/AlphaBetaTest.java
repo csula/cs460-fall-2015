@@ -75,31 +75,31 @@ public class AlphaBetaTest {
         // check after effect
         assertEquals(
             new Node<>(3, -8),
-            graph.getNode(3)
+            graph.getNode(3).get()
         );
         assertEquals(
             new Node<>(1, -13),
-            graph.getNode(1)
+            graph.getNode(1).get()
         );
         assertEquals(
             new Node<>(2, -14),
-            graph.getNode(2)
+            graph.getNode(2).get()
         );
         assertEquals(
             new Node<>(5, -14),
-            graph.getNode(5)
+            graph.getNode(5).get()
         );
         assertEquals(
             new Node<>(9, -15),
-            graph.getNode(9)
+            graph.getNode(9).get()
         );
         assertEquals(
             new Node<>(6, 0),
-            graph.getNode(6)
+            graph.getNode(6).get()
         );
         assertEquals(
             new Node<>(13, 0),
-            graph.getNode(13)
+            graph.getNode(13).get()
         );
     }
 }
